@@ -245,6 +245,211 @@
       "seq": 44,
       "url": "https://buy.houseprice.tw/house/38629737_1025475",
       "checkedAt": "2026-10-24T16:09:26+00:00"
+    },
+    {
+      "photoUrl": "",
+      "reason": "redirect_other_host",
+      "seq": 45,
+      "url": "https://www.rakuya.com.tw/sell_item/info?ehid=0cf86e348964018",
+      "checkedAt": "2026-10-24T16:10:45+00:00"
+    },
+    {
+      "photoUrl": "",
+      "reason": "http_404",
+      "seq": 46,
+      "url": "https://www.rakuya.com.tw/sell_item/info?ehid=0da143345114612",
+      "checkedAt": "2026-10-24T16:10:45+00:00"
+    },
+    {
+      "photoUrl": "",
+      "reason": "redirect_other_host",
+      "seq": 47,
+      "url": "https://www.rakuya.com.tw/sell_item/info?ehid=04660a34209174c",
+      "checkedAt": "2026-10-24T16:10:45+00:00"
+    },
+    {
+      "photoUrl": "",
+      "reason": "redirect_other_host",
+      "seq": 48,
+      "url": "https://www.rakuya.com.tw/sell_item/info?ehid=07ede134037239b",
+      "checkedAt": "2026-10-24T16:10:45+00:00"
+    },
+    {
+      "photoUrl": "",
+      "reason": "redirect_other_host",
+      "seq": 49,
+      "url": "https://www.rakuya.com.tw/sell_item/info?ehid=0aa56234620876b",
+      "checkedAt": "2026-10-24T16:10:45+00:00"
+    },
+    {
+      "photoUrl": "",
+      "reason": "redirect_other_host",
+      "seq": 50,
+      "url": "https://www.rakuya.com.tw/sell_item/info?ehid=011b3a359213373",
+      "checkedAt": "2026-10-24T16:10:45+00:00"
+    },
+    {
+      "photoUrl": "https://img2.591.com.tw/house/2026/07/06/178331067982701602.jpg!1000x.water2.jpg",
+      "source": "listing_og:image",
+      "reason": "ok",
+      "title": "🌟獨家🌟高樓層絕美河景🌟坡平車🌟淡水市區🌟 - 591售屋網",
+      "seq": 51,
+      "url": "https://sale.591.com.tw/home/house/detail/2/20911484.html",
+      "checkedAt": "2026-10-24T16:10:45+00:00"
+    },
+    {
+      "photoUrl": "",
+      "reason": "http_403",
+      "seq": 52,
+      "url": "https://buy.houseprice.tw/house/37435973_2005850",
+      "checkedAt": "2026-10-24T16:10:45+00:00"
+    },
+    {
+      "photoUrl": "",
+      "reason": "redirect_other_host",
+      "seq": 53,
+      "url": "https://www.rakuya.com.tw/sell_item/info?ehid=01d9c634923062b",
+      "checkedAt": "2026-10-24T16:10:45+00:00"
+    },
+    {
+      "photoUrl": "https://static.rakuya.com.tw/r2/n532/6b/3f/35829532_1_b.jpeg?1791949503",
+      "source": "listing_og:image",
+      "reason": "ok",
+      "title": "天京社區｜海山捷運約5分鐘｜高樓景觀大套房 - 天京/摩天京華更多社區優質物件 | 樂屋網社區行情",
+      "seq": 54,
+      "url": "https://community.rakuya.com.tw/1358/sell/info?ehid=030ad935829532c",
+      "checkedAt": "2026-10-24T16:10:45+00:00"
+    },
+    {
+      "photoUrl": "https://static.rakuya.com.tw/r1/n239/e0/7b/34037239_2_b.jpeg?1783469366",
+      "source": "listing_og:image",
+      "reason": "ok",
+      "title": "可看屋金城閣挑高三米六 - 金城閣更多社區優質物件 | 樂屋網社區行情",
+      "seq": 55,
+      "url": "https://community.rakuya.com.tw/12714/sell/info?ehid=07ede134037239b",
+      "checkedAt": "2026-10-24T16:10:45+00:00"
+    },
+    {
+      "photoUrl": "",
+      "reason": "redirect_other_host",
+      "seq": 56,
+      "url": "https://www.rakuya.com.tw/sell_item/info?ehid=053b3733437114c",
+      "checkedAt": "2026-10-24T16:10:45+00:00"
+    },
+    {
+      "photoUrl": "",
+      "reason": "http_404",
+      "seq": 57,
+      "url": "https://www.rakuya.com.tw/sell_item/info?ehid=02cec0358673707",
+      "checkedAt": "2026-10-24T16:10:45+00:00"
+    },
+    {
+      "photoUrl": "",
+      "reason": "redirect_other_host",
+      "seq": 58,
+      "url": "https://www.rakuya.com.tw/sell_item/info?ehid=041da7334401893",
+      "checkedAt": "2026-10-24T16:10:45+00:00"
+    },
+    {
+      "photoUrl": "",
+      "reason": "redirect_other_host",
+      "seq": 59,
+      "url": "https://www.rakuya.com.tw/sell_item/info?ehid=06db9435142840b",
+      "checkedAt": "2026-10-24T16:10:45+00:00"
+    },
+    {
+      "photoUrl": "",
+      "reason": "redirect_other_host",
+      "seq": 60,
+      "url": "https://www.rakuya.com.tw/sell_item/info?ehid=0079cd351428878",
+      "checkedAt": "2026-10-24T16:10:45+00:00"
+    },
+    {
+      "photoUrl": "",
+      "reason": "http_403",
+      "seq": 61,
+      "url": "https://buy.yungching.com.tw/house/7029139",
+      "checkedAt": "2026-10-24T16:10:45+00:00"
+    },
+    {
+      "photoUrl": "https://static.rakuya.com.tw/r2/n575/e2/32/32547575_1_b.jpeg?1785215663",
+      "source": "listing_og:image",
+      "reason": "ok",
+      "title": "追求卓越在此發跡ＡＭＡＸ - 宏普AMAXSOHO住辦物件 | 樂屋網社區行情",
+      "seq": 62,
+      "url": "https://community.rakuya.com.tw/55566/sell/info?ehid=099bed325475752",
+      "checkedAt": "2026-10-24T16:10:45+00:00"
+    },
+    {
+      "photoUrl": "",
+      "reason": "http_404",
+      "seq": 63,
+      "url": "https://community.rakuya.com.tw/55566/sell/info?ehid=0d00c7350291870",
+      "checkedAt": "2026-10-24T16:10:45+00:00"
+    },
+    {
+      "photoUrl": "https://static.rakuya.com.tw/r2/n774/c1/96/33742774_13_b.jpeg?1786156925",
+      "source": "listing_og:image",
+      "reason": "ok",
+      "title": "宏普ＡＭＡＸ稀有精美設計 - 宏普AMAXSOHO住辦物件 | 樂屋網社區行情",
+      "seq": 64,
+      "url": "https://community.rakuya.com.tw/55566/sell/info?ehid=029e94337427747",
+      "checkedAt": "2026-10-24T16:10:45+00:00"
+    },
+    {
+      "photoUrl": "",
+      "reason": "http_404",
+      "seq": 65,
+      "url": "https://community.rakuya.com.tw/55305/sell/info?ehid=01205a348138007",
+      "checkedAt": "2026-10-24T16:10:45+00:00"
+    },
+    {
+      "photoUrl": "https://res.sinyi.com.tw/buy/8737WG/bigimg/A.JPG",
+      "source": "listing_og:image",
+      "reason": "ok",
+      "title": "景平站天空之城玻璃美景 - 信義房屋",
+      "seq": 66,
+      "url": "https://www.sinyi.com.tw/buy/house/8737WG",
+      "checkedAt": "2026-10-24T16:10:45+00:00"
+    },
+    {
+      "photoUrl": "https://res.sinyi.com.tw/buy/8761LK/bigimg/A.JPG",
+      "source": "listing_og:image",
+      "reason": "ok",
+      "title": "拎包入住－天空之城美宅 - 信義房屋",
+      "seq": 67,
+      "url": "https://www.sinyi.com.tw/buy/house/8761LK",
+      "checkedAt": "2026-10-24T16:10:45+00:00"
+    },
+    {
+      "photoUrl": "https://res.sinyi.com.tw/buy/4487HR/bigimg/A.JPG",
+      "source": "listing_og:image",
+      "reason": "ok",
+      "title": "景平捷運天空之城景觀宅 - 信義房屋",
+      "seq": 68,
+      "url": "https://www.sinyi.com.tw/buy/house/4487HR",
+      "checkedAt": "2026-10-24T16:10:45+00:00"
+    },
+    {
+      "photoUrl": "",
+      "reason": "redirect_other_host",
+      "seq": 69,
+      "url": "https://www.rakuya.com.tw/sell_item/info?ehid=013761354920599",
+      "checkedAt": "2026-10-24T16:10:45+00:00"
+    },
+    {
+      "photoUrl": "",
+      "reason": "redirect_other_host",
+      "seq": 70,
+      "url": "https://www.rakuya.com.tw/sell_item/info?ehid=03c2e833195509a",
+      "checkedAt": "2026-10-24T16:10:45+00:00"
+    },
+    {
+      "photoUrl": "",
+      "reason": "redirect_other_host",
+      "seq": 71,
+      "url": "https://www.rakuya.com.tw/sell_item/info?ehid=018b9f35259001e",
+      "checkedAt": "2026-10-24T16:10:45+00:00"
     }
   ]
 }
