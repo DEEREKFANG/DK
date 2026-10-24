@@ -85,7 +85,7 @@ jobs:
                 offenders:[...document.querySelectorAll('body *')].map(x=>({tag:x.tagName,cls:String(x.className).slice(0,75),right:Math.round(x.getBoundingClientRect().right),width:Math.round(x.getBoundingClientRect().width)})).filter(z=>z.right>window.innerWidth+2).slice(0,12)
               }));console.log('CHROME_'+tag,JSON.stringify(x));return x};
               const result=await stats('FRESH');
-              await page.locator('[data-nav="all"]').first().click();
+              await page.locator('#mobileNav [data-nav="all"]').click();
               await page.selectOption('#fAge','under30');
               const young=await page.evaluate(()=>({count:filtered().length,invalid:filtered().filter(x=>buildingAge(x)===null||buildingAge(x)>30).map(x=>x.seq)}));
               console.log('AGE_FILTER_UNDER30',JSON.stringify(young));
