@@ -1,0 +1,37 @@
+name: Resolve 591 shared URL
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/resolve-591-link.yml'
+permissions:
+  contents: read
+jobs:
+  resolve:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - name: Check public 591 redirect
+        shell: bash
+        run: |
+          python -m pip -q install requests
+          python - <<'PY'
+          import requests, re
+          u='https://591.to/exkvf'
+          headers={'User-Agent':'Mozilla/5.0 (Linux; Android 14; Mobile) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36', 'Referer':'https://www.591.com.tw/'}
+          for method in ('GET','HEAD'):
+            try:
+              r=requests.request(method,u,headers=headers,timeout=18,allow_redirects=True)
+              print('METHOD',method,'STATUS',r.status_code)
+              print('FINAL_URL',r.url)
+              print('HISTORY',[(x.status_code,x.url,x.headers.get('Location')) for x in r.history])
+              print('CONTENT_TYPE',r.headers.get('Content-Type'))
+              if method=='GET':
+                t=re.search(r'<title[^>]*>(.*?)</title>',r.text,re.S|re.I)
+                print('TITLE',t.group(1).strip()[:300] if t else 'none')
+                for key in ('og:url','og:description'):
+                  v=re.search(r'<meta[^>]+property=["\']'+re.escape(key)+r'["\'][^>]+content=["\']([^"\']+)',r.text,re.I)
+                  print(key,v.group(1)[:500] if v else 'none')
+            except Exception as e:
+              print('ERROR',method,repr(e))
+          PY
