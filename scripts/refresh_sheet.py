@@ -29,7 +29,8 @@ COLS = {
     "高度(m)":"height", "本戶法定用途":"purpose", "原始網址":"url",
     "捷運":"metro", "floor":"floor", "刊登狀態":"listingStatus",
     "評估結論":"assessment", "優點":"pros", "缺點與風險":"cons",
-    "重複／關聯":"related", "屋齡（年）":"ageYears", "屋齡來源／查核":"ageNote"
+    "重複／關聯":"related", "屋齡（年）":"ageYears", "屋齡來源／查核":"ageNote",
+    "屋況照片網址（本戶已核實）":"photoUrl"
 }
 NUMERIC = {"seq", "price", "totalArea", "mainArea", "management", "height", "floor", "ageYears"}
 
@@ -76,6 +77,10 @@ def main():
             p["ageYears"] = None
         if p.get("url") and not re.match(r"^https://", p["url"], re.I):
             p["url"] = ""
+        # Photo links must be verified by the owner as the exact advertised unit.
+        # Never infer an interior photo from the community or neighbouring unit.
+        if p.get("photoUrl") and not re.match(r"^https://", p["photoUrl"], re.I):
+            p["photoUrl"] = ""
         items.append(p)
     items.sort(key=lambda x:x["seq"])
     if len(items) < 60:
