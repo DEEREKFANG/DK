@@ -115,31 +115,54 @@ def extract_image(html, listing_url):
     return "", "", p.title.strip()[:140]
 
 def fetch_photo(record):
-    seq, listing = record["seq"],record["url"]
-    try:
-        response=requests.get(listing,timeout=(4,8),headers=HEADERS,allow_redirects=True)
-        if response.status_code!=200:return seq,{"photoUrl":"","reason":"http_"+str(response.status_code)}
-        page=urlparse(response.url)
-        original=urlparse(listing)
-        if page.hostname != original.hostname:
-            # Rakuya sometimes transfers a listing to a sibling subdomain.
-            # Accept only if the exact same eHid remains in the final URL.
-            item_id = re.search(r"(?:[?&]ehid=)([a-zA-Z0-9]+)", listing, re.I)
-            same_vendor = (page.hostname or "").endswith(".rakuya.com.tw") and (
-                original.hostname or "").endswith(".rakuya.com.tw")
-            same_item = bool(item_id and item_id.group(1) in response.url)
-            if not (same_vendor and same_item):
-                return seq,{"photoUrl":"","reason":"redirect_other_host", "redirect_to":response.url[:220]}
-        if response.url.rstrip("/") == ("https://"+original.hostname):
-            return seq,{"photoUrl":"","reason":"redirect_to_home"}
-        ctype=response.headers.get("content-type","").lower()
-        if "html" not in ctype and "text/" not in ctype:
-            return seq,{"photoUrl":"","reason":"not_html"}
-        image,kind,title=extract_image(response.text,response.url)
-        if not image: return seq,{"photoUrl":"","reason":"no_listing_image_metadata"}
-        return seq,{"photoUrl":image,"source":"listing_"+kind, "reason":"ok","title":title}
-    except requests.RequestException as exc:
-        return seq,{"photoUrl":"","reason":type(exc).__name__}
+    """Get a safe primary cover; if blocked, use a cross-matched same-unit agent page."""
+    seq, listing = record["seq"], record["url"]
+    alternative = record.get("alternative", "")
+    last = {"photoUrl":"","reason":"no_listing_image_metadata"}
+    sources = [("listing",listing)]
+    if alternative and safe_url(alternative):
+        sources.append(("verified_matching_broker_listing",alternative))
+    for origin_label, candidate in sources:
+        try:
+            response=requests.get(candidate,timeout=(4,8),headers=HEADERS,allow_redirects=True)
+            if response.status_code!=200:
+                last={"photoUrl":"","reason":"http_"+str(response.status_code)}
+                continue
+            page=urlparse(response.url)
+            original=urlparse(candidate)
+            if page.hostname != original.hostname:
+                item_id = re.search(r"(?:[?&]ehid=)([a-zA-Z0-9]+)", candidate, re.I)
+                same_vendor = (page.hostname or "").endswith(".rakuya.com.tw") and (
+                    original.hostname or "").endswith(".rakuya.com.tw")
+                same_item = bool(item_id and item_id.group(1) in response.url)
+                if not (same_vendor and same_item):
+                    last={"photoUrl":"","reason":"redirect_other_host", "redirect_to":response.url[:220]}
+                    continue
+            if response.url.rstrip("/") == ("https://"+original.hostname):
+                last={"photoUrl":"","reason":"redirect_to_home"}
+                continue
+            ctype=response.headers.get("content-type","").lower()
+            if "html" not in ctype and "text/" not in ctype:
+                last={"photoUrl":"","reason":"not_html"}
+                continue
+            if origin_label != "listing":
+                # Cross-match the independent ad against sale price, area, and name.
+                body=response.text
+                expected_name=record.get("community","")
+                price=str(record.get("price",""))
+                area=str(record.get("totalArea",""))
+                if not expected_name or expected_name not in body or price not in body or area not in body:
+                    last={"photoUrl":"","reason":"secondary_not_verified"}
+                    continue
+            image,kind,title=extract_image(response.text,response.url)
+            if not image:
+                last={"photoUrl":"","reason":"no_listing_image_metadata"}
+                continue
+            return seq,{"photoUrl":image,"source":origin_label+"_"+kind,
+                        "reason":"ok","title":title}
+        except requests.RequestException as exc:
+            last={"photoUrl":"","reason":type(exc).__name__}
+    return seq,last
 
 def main():
     doc=json.loads(DATA.read_text("utf-8"))
@@ -164,12 +187,17 @@ def main():
             try:checktime=datetime.fromisoformat(prior["checkedAt"])
             except (KeyError,ValueError):checktime=now-timedelta(days=20)
             ttl=(timedelta(days=7) if prior.get("photoUrl") else
-                 timedelta(seconds=0) if prior.get("reason")=="redirect_other_host" and
-                  not prior.get("redirect_to") else timedelta(hours=12))
+                 timedelta(seconds=0) if prior.get("reason") in ("redirect_other_host","http_403") else timedelta(hours=12))
             if now-checktime<ttl:
                 stored[seq]=prior
                 continue
-        records.append({"seq":seq,"url":url})
+        alternative = ""
+        related = house.get("related","")
+        match = re.search(r"https://www\\.mysweethome\\.com\\.tw/sell_item/[A-Za-z0-9_-]+", related)
+        if match: alternative = match.group(0)
+        records.append({"seq":seq,"url":url,"alternative":alternative,
+                        "community":house.get("name","").split("・")[0].strip(),
+                        "price":house.get("price"),"totalArea":house.get("totalArea")})
     # Avoid pounding listing websites; batches progressively fill blank images.
     records=records[:MAX_FETCH]
     results={}
