@@ -1,0 +1,44 @@
+name: Investigate Leju Shared Listing
+on:
+  push:
+    paths:
+      - '.github/workflows/investigate-leju.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  lookup:
+    runs-on: ubuntu-latest
+    timeout-minutes: 4
+    steps:
+      - name: Check Leju listing redirects and public metadata
+        shell: bash
+        run: |
+          python - <<'PY'
+          import requests,re,html,json
+          from bs4 import BeautifulSoup
+          from urllib.parse import urlparse
+          urls=['https://www.leju.com.tw/sales/S04TF02513395F','https://www.leju.com.tw/sales/S04TF02513395F?utm_source=Leju&utm_medium=phone-share']
+          for url in urls:
+            print('\nFETCH',url,flush=True)
+            try:
+              r=requests.get(url,headers={'User-Agent':'Mozilla/5.0 (Linux; Android 15; Mobile; rv:130.0) Gecko/130.0 Firefox/130.0','Accept-Language':'zh-TW,zh;q=0.9','Referer':'https://www.leju.com.tw/'},timeout=25)
+              print('HTTP',r.status_code,'FINAL',r.url,'SIZE',len(r.content),'TYPE',r.headers.get('content-type'))
+              r.encoding=r.apparent_encoding or 'utf-8'
+              soup=BeautifulSoup(r.text,'html.parser')
+              print('TITLE',soup.title.get_text(' ',strip=True)[:500] if soup.title else 'none')
+              for t in soup.select('meta[property],meta[name]'):
+                key=str(t.get('property') or t.get('name') or '').lower()
+                if key in ('og:title','og:description','og:url','description','twitter:title','twitter:description'):
+                  print('META',key,repr(t.get('content','')[:1200]))
+              for s in soup.select('script[type="application/ld+json"]'):
+                print('JSON_LD',s.get_text(' ',strip=True)[:4000])
+              for pattern in ['S04TF02513395F','社區','總價','坪數','物件編號','樓層','銷售中','已售出','已下架','業務']:
+                found=re.search(re.escape(pattern),r.text,re.I)
+                if found: print('FOUND',pattern,re.sub(r'\s+',' ',r.text[max(0,found.start()-100):found.start()+260])[:420])
+              for t in soup(['script','style','nav','footer']):t.decompose()
+              print('TEXT',soup.get_text(' ',strip=True)[:3700])
+            except Exception as exc:
+              print('ERROR',type(exc).__name__,str(exc)[:500])
+          PY
+          
