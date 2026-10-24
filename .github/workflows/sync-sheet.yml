@@ -7,6 +7,7 @@ on:
     branches: [main]
     paths:
       - 'scripts/refresh_sheet.py'
+      - 'scripts/collect_photos.py'
       - '.github/workflows/sync-sheet.yml'
 
 permissions:
@@ -31,11 +32,13 @@ jobs:
         run: python -m pip install --disable-pip-version-check requests
       - name: Read public Google Sheet and validate property rows
         run: python scripts/refresh_sheet.py
-      - name: Publish new website data only when properties change
+      - name: Read each source listing's public photo metadata (best-effort)
+        run: python scripts/collect_photos.py
+      - name: Publish new website data only when properties or photos change
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add sheet-data.json
+          git add sheet-data.json listing-photos.json
           if git diff --cached --quiet; then
             echo "Sheet data unchanged"
           else
