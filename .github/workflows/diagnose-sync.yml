@@ -85,6 +85,21 @@ jobs:
                 offenders:[...document.querySelectorAll('body *')].map(x=>({tag:x.tagName,cls:String(x.className).slice(0,75),right:Math.round(x.getBoundingClientRect().right),width:Math.round(x.getBoundingClientRect().width)})).filter(z=>z.right>window.innerWidth+2).slice(0,12)
               }));console.log('CHROME_'+tag,JSON.stringify(x));return x};
               const result=await stats('FRESH');
+              await page.locator('[data-nav="all"]').first().click();
+              await page.selectOption('#fAge','under30');
+              const young=await page.evaluate(()=>({count:filtered().length,invalid:filtered().filter(x=>buildingAge(x)===null||buildingAge(x)>30).map(x=>x.seq)}));
+              console.log('AGE_FILTER_UNDER30',JSON.stringify(young));
+              if(!young.count||young.invalid.length)throw Error('Under30 age filter invalid');
+              await page.selectOption('#fAge','over30');
+              const old=await page.evaluate(()=>({count:filtered().length,invalid:filtered().filter(x=>buildingAge(x)===null||buildingAge(x)<=30).map(x=>x.seq)}));
+              console.log('AGE_FILTER_OVER30',JSON.stringify(old));
+              if(!old.count||old.invalid.length)throw Error('Over30 age filter invalid');
+              await page.selectOption('#fAge','unknown');
+              const unknown=await page.evaluate(()=>({count:filtered().length,invalid:filtered().filter(x=>buildingAge(x)!==null).map(x=>x.seq)}));
+              console.log('AGE_FILTER_UNKNOWN',JSON.stringify(unknown));
+              if(!unknown.count||unknown.invalid.length)throw Error('Unknown age filter invalid');
+              await page.selectOption('#fAge','all');
+              await page.selectOption('#fSort','ageAsc');
               // Simulate user devices that saved a 60/61-property localStorage snapshot.
               const seed=await page.evaluate(()=>{
                 const d=JSON.parse(localStorage.getItem('house_compare_taiwan_20261024_v2')||'null');
