@@ -41,7 +41,7 @@ SUPPORTED = (
     "buy.yungching.com.tw",
     "www.sinyi.com.tw",
 )
-MAX_FETCH = 30  # politely bound requests per run
+MAX_FETCH = 70  # cover remaining exact-unit links in this follow-up run
 def safe_url(url):
     try:
         p = urlparse(str(url).strip())
