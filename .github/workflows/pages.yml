@@ -26,6 +26,17 @@ jobs:
         uses: actions/configure-pages@v5
         with:
           enablement: true
+      - name: Validate website JavaScript
+        run: |
+          python - <<'PY'
+          import re
+          from pathlib import Path
+          html=Path('index.html').read_text(encoding='utf-8')
+          scripts=re.findall(r'<script[^>]*>(.*?)</script>', html, flags=re.S|re.I)
+          assert scripts, 'No inline JavaScript located'
+          Path('/tmp/property-dashboard.js').write_text(scripts[-1], encoding='utf-8')
+          PY
+          node --check /tmp/property-dashboard.js
       - name: Upload website
         uses: actions/upload-pages-artifact@v3
         with:
