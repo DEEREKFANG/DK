@@ -3,7 +3,7 @@
   "source": "google_sheet_public_csv",
   "sheetId": "1XP_8GXN9QRKbEGqYzBudjOYazADMJqYFf8gqMiADgS8",
   "sheetGid": "762574749",
-  "count": 71,
+  "count": 72,
   "items": [
     {
       "seq": 1,
@@ -1749,6 +1749,30 @@
       "ageNote": "樂屋社區待售列表標示約20.1年、591刊登20年；2026/10參考值，待本戶建物謄本核對。",
       "photoUrl": "https://static.rakuya.com.tw/r1/n001/80/02/35259001_1_b.jpeg?1787889670",
       "photoSource": "listing_og:image"
+    },
+    {
+      "seq": 72,
+      "name": "捷年高昇・4樓挑高一房（5168／大家房屋）",
+      "district": "中和",
+      "price": 1050,
+      "totalArea": 19.62,
+      "mainArea": 9.31,
+      "management": 1088,
+      "rooms": "1房1廳1衛",
+      "heightType": "A",
+      "height": null,
+      "purpose": "本戶謄本主要用途未取得；刊登未載明，不視為已確認合法住宅用途",
+      "url": "https://buy.houseprice.tw/house/36444763_381502",
+      "metro": "中原站，來源刊登約552公尺",
+      "floor": 4,
+      "listingStatus": "unverified",
+      "assessment": "1050萬元含機械車位，符合1300萬價格上限，但主建9.31坪僅1房。保留150萬股票、70萬預備金時房貸＋管理費約33086元/月（2.5%、30年、費用3%）；不建議現價購買。原5168頁無法讀取，大家房屋相符但仍待核同戶與售況。",
+      "pros": "4／11樓挑高方正格局、近環狀線中原站約552公尺；開價在1300萬以內。",
+      "cons": "19.62坪含6.22坪機械車位，房屋權狀不含車位約13.40坪，主建9.31坪；機械車位能否分售、夾層合法性、登記用途、房屋售況均待核，月付壓力高。",
+      "related": "疑同戶：大家房屋 ZB07175 https://www.mysweethome.com.tw/sell_item/H133-ZB07175；1050萬／19.62坪／主建9.31坪／管理費1088元",
+      "ageYears": 27.2,
+      "ageNote": "大家房屋2026年10月刊登約27.2年；待謄本確認",
+      "photoUrl": ""
     }
   ]
 }
