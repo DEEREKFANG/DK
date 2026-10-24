@@ -122,7 +122,14 @@ def fetch_photo(record):
         page=urlparse(response.url)
         original=urlparse(listing)
         if page.hostname != original.hostname:
-            return seq,{"photoUrl":"","reason":"redirect_other_host"}
+            # Rakuya sometimes transfers a listing to a sibling subdomain.
+            # Accept only if the exact same eHid remains in the final URL.
+            item_id = re.search(r"(?:[?&]ehid=)([a-zA-Z0-9]+)", listing, re.I)
+            same_vendor = (page.hostname or "").endswith(".rakuya.com.tw") and (
+                original.hostname or "").endswith(".rakuya.com.tw")
+            same_item = bool(item_id and item_id.group(1) in response.url)
+            if not (same_vendor and same_item):
+                return seq,{"photoUrl":"","reason":"redirect_other_host", "redirect_to":response.url[:220]}
         if response.url.rstrip("/") == ("https://"+original.hostname):
             return seq,{"photoUrl":"","reason":"redirect_to_home"}
         ctype=response.headers.get("content-type","").lower()
@@ -156,7 +163,9 @@ def main():
         if prior.get("url")==url:
             try:checktime=datetime.fromisoformat(prior["checkedAt"])
             except (KeyError,ValueError):checktime=now-timedelta(days=20)
-            ttl=timedelta(days=7) if prior.get("photoUrl") else timedelta(hours=12)
+            ttl=(timedelta(days=7) if prior.get("photoUrl") else
+                 timedelta(seconds=0) if prior.get("reason")=="redirect_other_host" and
+                  not prior.get("redirect_to") else timedelta(hours=12))
             if now-checktime<ttl:
                 stored[seq]=prior
                 continue
