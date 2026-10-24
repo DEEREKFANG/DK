@@ -8,6 +8,7 @@ on:
     paths:
       - 'scripts/check_listings.py'
       - '.github/workflows/check-listings.yml'
+      - 'index.html'
 
 permissions:
   contents: write
