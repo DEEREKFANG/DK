@@ -37,6 +37,17 @@ jobs:
           Path('/tmp/property-dashboard.js').write_text(scripts[-1], encoding='utf-8')
           PY
           node --check /tmp/property-dashboard.js
+      - name: Validate photo-backed property data
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          source = json.loads(Path('sheet-data.json').read_text('utf-8'))
+          assert len(source.get('items', [])) >= 60, 'Property catalog missing'
+          photos = [x for x in source['items'] if x.get('photoUrl')]
+          assert all(x['photoUrl'].startswith('https://') for x in photos), 'Invalid image URL'
+          print(f'Publishing {len(source["items"])} properties, {len(photos)} listing photo references')
+          PY
       - name: Upload website
         uses: actions/upload-pages-artifact@v3
         with:
