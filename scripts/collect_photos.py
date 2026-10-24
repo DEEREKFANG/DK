@@ -193,7 +193,7 @@ def main():
                 continue
         alternative = ""
         related = house.get("related","")
-        match = re.search(r"https://www\\.mysweethome\\.com\\.tw/sell_item/[A-Za-z0-9_-]+", related)
+        match = re.search(r"https://www\.mysweethome\.com\.tw/sell_item/[A-Za-z0-9_-]+", related)
         if match: alternative = match.group(0)
         records.append({"seq":seq,"url":url,"alternative":alternative,
                         "community":house.get("name","").split("・")[0].strip(),
