@@ -3,6 +3,8 @@ on:
   push:
     paths:
       - '.github/workflows/diagnose-sync.yml'
+      - 'index.html'
+      - 'sheet-data.json'
   workflow_dispatch:
 permissions:
   contents: read
