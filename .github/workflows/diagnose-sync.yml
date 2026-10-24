@@ -25,8 +25,7 @@ jobs:
           const fs=require('fs');
           const {JSDOM,VirtualConsole}=require('jsdom');
           const raw=fs.readFileSync('index.html','utf8');
-          const injected=raw.replace("catch(e){notify('線上同步失敗：'+e.message);","catch(e){console.error('SYNC_TRACE',e.stack);notify('線上同步失敗：'+e.message);");
-          if(injected===raw)throw Error('Error handler not found');
+          const injected=raw;
           const virtual=new VirtualConsole();
           virtual.on('error',(...args)=>console.error('JS_ERROR',...args));
           virtual.on('jsdomError',e=>console.error('DOM_ERROR',e.stack));
