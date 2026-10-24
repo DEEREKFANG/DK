@@ -1,0 +1,250 @@
+{
+  "schemaVersion": 1,
+  "source": "individual_listing_metadata",
+  "items": [
+    {
+      "photoUrl": "",
+      "reason": "redirect_other_host",
+      "seq": 1,
+      "url": "https://www.rakuya.com.tw/sell_item/info?ehid=06d1be34908156c",
+      "checkedAt": "2026-10-24T16:09:26+00:00"
+    },
+    {
+      "photoUrl": "",
+      "reason": "redirect_other_host",
+      "seq": 2,
+      "url": "https://www.rakuya.com.tw/sell_item/info?ehid=0aff67353636686",
+      "checkedAt": "2026-10-24T16:09:26+00:00"
+    },
+    {
+      "photoUrl": "",
+      "reason": "redirect_other_host",
+      "seq": 5,
+      "url": "https://www.rakuya.com.tw/sell_item/info?ehid=089ac635891374d",
+      "checkedAt": "2026-10-24T16:09:26+00:00"
+    },
+    {
+      "photoUrl": "https://img.hbhousing.com.tw/pictures/A778%2fA778YS202069a.jpg?1792858167",
+      "source": "listing_og:image",
+      "reason": "ok",
+      "title": "新北市土城區土城捷運全天管理挑高四米五 - 住商不動產",
+      "seq": 11,
+      "url": "https://www.hbhousing.com.tw/detail?sn=YS202069",
+      "checkedAt": "2026-10-24T16:09:26+00:00"
+    },
+    {
+      "photoUrl": "https://static.rakuya.com.tw/r1/n426/41/d6/35750426_1_b.jpeg?1791378611",
+      "source": "listing_og:image",
+      "reason": "ok",
+      "title": "捷運景平站~天空之城大套房 - 天空之城更多社區優質物件 | 樂屋網社區行情",
+      "seq": 18,
+      "url": "https://community.rakuya.com.tw/19127/sell/info?ehid=0265db357504262",
+      "checkedAt": "2026-10-24T16:09:26+00:00"
+    },
+    {
+      "photoUrl": "https://static.rakuya.com.tw/r2/n976/18/e0/35743976_1_b.jpeg?1791352969",
+      "source": "listing_og:image",
+      "reason": "ok",
+      "title": "★府中捷運★站前凱悅有陽台美妝套房 - 站前凱悅更多社區優質物件 | 樂屋網社區行情",
+      "seq": 19,
+      "url": "https://community.rakuya.com.tw/2214/sell/info?ehid=0acbe1357439767",
+      "checkedAt": "2026-10-24T16:09:26+00:00"
+    },
+    {
+      "photoUrl": "https://static.rakuya.com.tw/r1/n215/ad/7b/35744215_1_b.jpeg?1791353297",
+      "source": "listing_og:image",
+      "reason": "ok",
+      "title": "美麗時代時尚1+1房|太平洋培德 - 美麗時代更多社區優質物件 | 樂屋網社區行情",
+      "seq": 20,
+      "url": "https://community.rakuya.com.tw/1859/sell/info?ehid=0bf67d35744215f",
+      "checkedAt": "2026-10-24T16:09:26+00:00"
+    },
+    {
+      "photoUrl": "https://static.rakuya.com.tw/r1/n359/0e/74/35758359_8_b.jpeg?1792140638",
+      "source": "listing_og:image",
+      "reason": "ok",
+      "title": "＊東京巨蛋花園廣場(703)邊間套房 - 巨蛋東京花園廣場更多社區優質物件 | 樂屋網社區行情",
+      "seq": 21,
+      "url": "https://community.rakuya.com.tw/38880/sell/info?ehid=0edf48357583595",
+      "checkedAt": "2026-10-24T16:09:26+00:00"
+    },
+    {
+      "photoUrl": "",
+      "reason": "http_404",
+      "seq": 23,
+      "url": "https://community.rakuya.com.tw/55329/sell/info?ehid=0a8f45358370814",
+      "checkedAt": "2026-10-24T16:09:26+00:00"
+    },
+    {
+      "photoUrl": "",
+      "reason": "http_404",
+      "seq": 24,
+      "url": "https://community.rakuya.com.tw/38900/sell/info?ehid=0b0ba8358510634",
+      "checkedAt": "2026-10-24T16:09:26+00:00"
+    },
+    {
+      "photoUrl": "https://static.rakuya.com.tw/r1/n010/29/53/35874010_1_b.jpeg?1792188317",
+      "source": "listing_og:image",
+      "reason": "ok",
+      "title": "昇陽寓見地上權不可貸款 - 新北市板橋區買房子、房屋出售 | 樂屋網",
+      "seq": 25,
+      "url": "https://community.rakuya.com.tw/39004/sell/info?ehid=0b7f6935874010c",
+      "checkedAt": "2026-10-24T16:09:26+00:00"
+    },
+    {
+      "photoUrl": "https://static.rakuya.com.tw/r2/n861/b9/51/35807861_1_b.jpeg?1792236778",
+      "source": "listing_og:image",
+      "reason": "ok",
+      "title": "世界花園二房車 - 金城舞世界花園更多社區優質物件 | 樂屋網社區行情",
+      "seq": 26,
+      "url": "https://community.rakuya.com.tw/52629/sell/info?ehid=078f2835807861b",
+      "checkedAt": "2026-10-24T16:09:26+00:00"
+    },
+    {
+      "photoUrl": "https://img2.591.com.tw/house/2026/08/22/178737838483594107.jpg!1000x.water2.jpg",
+      "source": "listing_og:image",
+      "reason": "ok",
+      "title": "❤河景36樓❤難得釋出現況2房❤新埔站10分鐘 - 591售屋網",
+      "seq": 27,
+      "url": "https://sale.591.com.tw/home/house/detail/2/21032345.html",
+      "checkedAt": "2026-10-24T16:09:26+00:00"
+    },
+    {
+      "photoUrl": "https://img2.591.com.tw/house/2026/09/24/179023705624262208.jpg!1000x.water2.jpg",
+      "source": "listing_og:image",
+      "reason": "ok",
+      "title": "捷運中和站約650米/挑高3米6/漂亮美麗時代1＋1房 - 591售屋網",
+      "seq": 28,
+      "url": "https://sale.591.com.tw/home/house/detail/2/20960698.html",
+      "checkedAt": "2026-10-24T16:09:26+00:00"
+    },
+    {
+      "photoUrl": "https://img1.591.com.tw/house/2026/09/28/179058094031915805.jpg!1000x.water2.jpg",
+      "source": "listing_og:image",
+      "reason": "ok",
+      "title": "和旺風閣~集美首排~高樓1+1房 - 591售屋網",
+      "seq": 29,
+      "url": "https://sale.591.com.tw/home/house/detail/2/20975989.html",
+      "checkedAt": "2026-10-24T16:09:26+00:00"
+    },
+    {
+      "photoUrl": "https://img.hbhousing.com.tw/pictures/A778%2fA778YS202069a.jpg?1792858170",
+      "source": "listing_og:image",
+      "reason": "ok",
+      "title": "新北市土城區土城捷運全天管理挑高四米五 - 住商不動產",
+      "seq": 30,
+      "url": "https://www.hbhousing.com.tw/detail/?sn=YS202069",
+      "checkedAt": "2026-10-24T16:09:26+00:00"
+    },
+    {
+      "photoUrl": "",
+      "reason": "http_202",
+      "seq": 31,
+      "url": "https://buy.housefun.com.tw/buy/house/7002385",
+      "checkedAt": "2026-10-24T16:09:26+00:00"
+    },
+    {
+      "photoUrl": "",
+      "reason": "SSLError",
+      "seq": 32,
+      "url": "https://www.great-home.com.tw/Detail/?sn=TB10928",
+      "checkedAt": "2026-10-24T16:09:26+00:00"
+    },
+    {
+      "photoUrl": "",
+      "reason": "http_403",
+      "seq": 33,
+      "url": "https://buy.houseprice.tw/house/32490318_2146375/",
+      "checkedAt": "2026-10-24T16:09:26+00:00"
+    },
+    {
+      "photoUrl": "https://static.rakuya.com.tw/r1/n288/ec/93/32314288_17_b.jpeg?1783226874",
+      "source": "listing_og:image",
+      "reason": "ok",
+      "title": "Ｆ１晴空白雲小豪宅 - 超級F1更多社區優質物件 | 樂屋網社區行情",
+      "seq": 34,
+      "url": "https://community.rakuya.com.tw/55329/sell/info?ehid=01a41c32314288b",
+      "checkedAt": "2026-10-24T16:09:26+00:00"
+    },
+    {
+      "photoUrl": "https://static.rakuya.com.tw/r1/n032/d3/04/35433032_1_b.jpeg?1789117321",
+      "source": "listing_og:image",
+      "reason": "ok",
+      "title": "捷運台北橋站-河景站小資套房 - 河景站更多社區優質物件 | 樂屋網社區行情",
+      "seq": 35,
+      "url": "https://community.rakuya.com.tw/28587/sell/info?ehid=07b874354330322",
+      "checkedAt": "2026-10-24T16:09:26+00:00"
+    },
+    {
+      "photoUrl": "https://img1.591.com.tw/house/2026/10/01/179082739165462306.jpg!1000x.water2.jpg",
+      "source": "listing_og:image",
+      "reason": "ok",
+      "title": "A3捷運生活圈｜容邑PARK｜格局方正明亮｜低總價入主副都心 - 591售屋網",
+      "seq": 36,
+      "url": "https://sale.591.com.tw/home/house/detail/2/20993506.html",
+      "checkedAt": "2026-10-24T16:09:26+00:00"
+    },
+    {
+      "photoUrl": "https://img2.591.com.tw/house/2026/07/30/178539484044171308.png!1000x.water2.png",
+      "source": "listing_og:image",
+      "reason": "ok",
+      "title": "專任⭐~Amax高樓遠景機捷宏匯旁 - 591售屋網",
+      "seq": 37,
+      "url": "https://sale.591.com.tw/home/house/detail/2/20642024.html",
+      "checkedAt": "2026-10-24T16:09:26+00:00"
+    },
+    {
+      "photoUrl": "https://img1.591.com.tw/house/2026/09/27/179052269506711406.png!1000x.water2.png",
+      "source": "listing_og:image",
+      "reason": "ok",
+      "title": "西門雙捷｜飯店式管理高樓宅｜小資．新婚置產首選 - 591售屋網",
+      "seq": 38,
+      "url": "https://sale.591.com.tw/home/house/detail/2/20971986.html",
+      "checkedAt": "2026-10-24T16:09:26+00:00"
+    },
+    {
+      "photoUrl": "",
+      "reason": "http_429",
+      "seq": 39,
+      "url": "https://sale.591.com.tw/home/house/detail/2/21008096.html",
+      "checkedAt": "2026-10-24T16:09:26+00:00"
+    },
+    {
+      "photoUrl": "",
+      "reason": "http_404",
+      "seq": 40,
+      "url": "https://community.rakuya.com.tw/40782/sell/info?ehid=0a7bfa35826602d",
+      "checkedAt": "2026-10-24T16:09:26+00:00"
+    },
+    {
+      "photoUrl": "",
+      "reason": "http_429",
+      "seq": 41,
+      "url": "https://sale.591.com.tw/home/house/detail/2/20836885.html",
+      "checkedAt": "2026-10-24T16:09:26+00:00"
+    },
+    {
+      "photoUrl": "https://static.rakuya.com.tw/r1/n171/f6/a5/35841171_8_b.jpeg?1792620706",
+      "source": "listing_og:image",
+      "reason": "ok",
+      "title": "捷運３分鐘。小資美宅傑作 - 台北捷座更多社區優質物件 | 樂屋網社區行情",
+      "seq": 42,
+      "url": "https://community.rakuya.com.tw/51298/sell/info?ehid=0363a035841171d",
+      "checkedAt": "2026-10-24T16:09:26+00:00"
+    },
+    {
+      "photoUrl": "",
+      "reason": "http_429",
+      "seq": 43,
+      "url": "https://sale.591.com.tw/home/house/detail/2/20755565.html",
+      "checkedAt": "2026-10-24T16:09:26+00:00"
+    },
+    {
+      "photoUrl": "",
+      "reason": "http_403",
+      "seq": 44,
+      "url": "https://buy.houseprice.tw/house/38629737_1025475",
+      "checkedAt": "2026-10-24T16:09:26+00:00"
+    }
+  ]
+}
