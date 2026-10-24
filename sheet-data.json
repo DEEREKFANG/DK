@@ -3,7 +3,7 @@
   "source": "google_sheet_public_csv",
   "sheetId": "1XP_8GXN9QRKbEGqYzBudjOYazADMJqYFf8gqMiADgS8",
   "sheetGid": "762574749",
-  "count": 72,
+  "count": 73,
   "items": [
     {
       "seq": 1,
@@ -1773,6 +1773,30 @@
       "ageYears": 27.2,
       "ageNote": "大家房屋刊登2026/10顯示約27.2年；本戶以建物謄本核實",
       "photoUrl": ""
+    },
+    {
+      "seq": 73,
+      "name": "豐后・7樓全新一房陽台天然瓦斯",
+      "district": "永和",
+      "price": 1068,
+      "totalArea": 11.19,
+      "mainArea": 6.3,
+      "management": null,
+      "rooms": "1房1廳1衛",
+      "heightType": "none",
+      "height": null,
+      "purpose": "樂居標示住宅用；信義房屋謄本用途「--」，預售屋須核建照、使照及交屋後登記用途",
+      "url": "https://www.leju.com.tw/sales/S026338DZF",
+      "metro": "捷運站步行距離與至松江南京通勤待查；未來中和光復線非現有交通",
+      "floor": 7,
+      "listingStatus": "unverified",
+      "assessment": "保留比價但不優先：符合1300萬價格上限且刊登住宅用、電梯；但僅1房、主建6.30坪，長住明顯小於至少2房偏好。現有刊登未確認未收訂；預售交屋期及貸款需查。",
+      "pros": "永和成功路一段；7/15樓、有陽台與天然瓦斯；刊登房間皆有窗、衛浴及配套以交屋實況確認；建坪11.19坪；近運動中心與生活機能。",
+      "cons": "開價95.44萬/坪，主建僅6.30坪、主+附6.87坪；管理費與實際捷運門到門通勤不明；預售交屋時間、建物登記用途、核貸成數及付款期程待查。未來捷運路線不能作現況交通；照片屬刊登資料，非驗屋證明。",
+      "related": "樂居S026338DZF與信義房屋6338DZ為相同刊登，不能計為兩戶；現有72筆未發現同社區「豐后」；仍須核對本戶建號。",
+      "ageYears": null,
+      "ageNote": "2026-10-25樂居與信義房屋均標示「預售」，未填屋齡；樂居頁顯示新上架，信義6338DZ仍有房源頁。",
+      "photoUrl": "https://res.sinyi.com.tw/buy/6338DZ/bigimg/A.JPG"
     }
   ]
 }
