@@ -29,9 +29,9 @@ COLS = {
     "高度(m)":"height", "本戶法定用途":"purpose", "原始網址":"url",
     "捷運":"metro", "floor":"floor", "刊登狀態":"listingStatus",
     "評估結論":"assessment", "優點":"pros", "缺點與風險":"cons",
-    "重複／關聯":"related"
+    "重複／關聯":"related", "屋齡（年）":"ageYears", "屋齡來源／查核":"ageNote"
 }
-NUMERIC = {"seq", "price", "totalArea", "mainArea", "management", "height", "floor"}
+NUMERIC = {"seq", "price", "totalArea", "mainArea", "management", "height", "floor", "ageYears"}
 
 def main():
     response = requests.get(URL, timeout=35, headers={
@@ -72,6 +72,8 @@ def main():
                     p[field] = None
             else:
                 p[field] = val[:3000]
+        if p.get("ageYears") is not None and not (0 <= p["ageYears"] <= 120):
+            p["ageYears"] = None
         if p.get("url") and not re.match(r"^https://", p["url"], re.I):
             p["url"] = ""
         items.append(p)
