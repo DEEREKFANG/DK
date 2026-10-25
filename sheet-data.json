@@ -3,7 +3,7 @@
   "source": "google_sheet_public_csv",
   "sheetId": "1XP_8GXN9QRKbEGqYzBudjOYazADMJqYFf8gqMiADgS8",
   "sheetGid": "762574749",
-  "count": 90,
+  "count": 91,
   "items": [
     {
       "seq": 1,
@@ -2171,6 +2171,32 @@
       "ageNote": "2026-10-25樂屋龜山新屋清單與信義代刊2132512CT顯示屋齡0.4年，完工日應以建物謄本為準。",
       "photoUrl": "https://static.rakuya.com.tw/r1/n246/0c/65/35496246_1_b.jpeg?1789545679",
       "photoSource": "listing_og:image"
+    },
+    {
+      "seq": 91,
+      "name": "新埔SRC明廳電梯美屋・5樓（信義3938JT）",
+      "district": "板橋",
+      "price": 1498,
+      "totalArea": 16.54,
+      "mainArea": 8.79,
+      "management": 600,
+      "rooms": "1房1廳1衛1室，另加蓋一房",
+      "heightType": "none",
+      "height": null,
+      "purpose": "信義3938JT刊登謄本用途集合住宅，使用分區住宅區；加蓋一房合法性待查",
+      "url": "https://www.sinyi.com.tw/buy/house/3938JT",
+      "metro": "板南線新埔站出口3約608公尺／步行8.6分鐘；往松江南京可忠孝新生轉乘",
+      "floor": 5,
+      "listingStatus": "unverified",
+      "assessment": "僅列超預算比較，非推薦：1498萬元比1300萬元上限高198萬元；權狀16.54坪、主建8.79坪，第二房為加蓋。按保留股票150萬、緊急金70萬、交易成本3%、房貸2.5%／30年，推估需貸1271.3萬元，約84.9%成數；房貸加管理費約50831元/月，薪資扣孝親費後不足支付。原刊登可讀但尚未向仲介確認未收訂及可帶看。",
+      "pros": "約6.2年SRC電梯華廈，5/7樓、一層2戶；室內採光、廁所開窗、有陽台，板南線新埔站步行約8.6分鐘，無車位。",
+      "cons": "高於1300萬元上限198萬元；主建僅8.79坪；加蓋一房用途與拆改風險待核，法定格局不能直接視為兩房；貸款需求約84.9%超過預設80%，管理費600元/月不含水電生活費。屋況、用途、貸款與實際售況待現場核對。",
+      "related": "信義物件編號3938JT；現有其他SRC類社區非同戶，避免僅因關鍵字相似合併。",
+      "ageYears": 6.2,
+      "ageNote": "2026-10-25信義房屋3938JT刊登屋齡約6.2年，待建物謄本核對。",
+      "photoUrl": "",
+      "manualEntry": true,
+      "manualSource": "exact Sinyi listing 3938JT; connector write to Google Sheet blocked"
     }
   ]
 }
