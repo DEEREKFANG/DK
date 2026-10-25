@@ -3,7 +3,7 @@
   "source": "google_sheet_public_csv",
   "sheetId": "1XP_8GXN9QRKbEGqYzBudjOYazADMJqYFf8gqMiADgS8",
   "sheetGid": "762574749",
-  "count": 74,
+  "count": 75,
   "items": [
     {
       "seq": 1,
@@ -1822,6 +1822,31 @@
       "ageYears": 2.8,
       "ageNote": "信義房屋2875VX刊登2026/10顯示屋齡2.8年；實際完工日與建物謄本待核對。",
       "photoUrl": ""
+    },
+    {
+      "seq": 75,
+      "name": "新濠岳・13樓挑高3.6米預售一房（信義06382Q）",
+      "district": "土城",
+      "price": 1275,
+      "totalArea": 15.76,
+      "mainArea": null,
+      "management": null,
+      "rooms": "1房1廳1衛",
+      "heightType": "A",
+      "height": 3.6,
+      "purpose": "信義06382Q刊登預售屋，謄本用途與使用分區均待核；應確認建照、使照及完工後登記用途",
+      "url": "https://www.sinyi.com.tw/buy/house/06382Q",
+      "metro": "頂埔站出口A約532公尺／步行7.5分鐘；松江南京於忠孝新生轉乘1次",
+      "floor": 13,
+      "listingStatus": "unverified",
+      "assessment": "開價1275萬符合1300萬搜尋上限，但僅一房、主+附僅9.96坪、主建未載，挑高3.6m不代表夾層合法。保留150萬股票及70萬預備金時按3%購屋成本、2.5%/30年試算，需貸約1041.6萬、81.7%成數，房貸約41155元/月、暫估管費2000後43155元/月，月付高於薪資扣孝親費後4萬元，不建議現價購入。預售交屋期及核貸條件待查。",
+      "pros": "13／18樓、電梯、挑高3.6m、方正一房；頂埔站步行約7.5分鐘；無刊登車位。",
+      "cons": "預售屋照片可能是示意圖，無實際完工屋況；1房空間不符至少2房偏好，主+附9.96坪不能當主建坪。房貸成數及負擔風險，管理費、完工日期、夾層合法性、核貸成數及用途待查。原刊登是否已收訂未經人工確認。",
+      "related": "信義同社區12樓15.76坪1270萬元另有廣告，與13樓06382Q不能視為同戶。",
+      "ageYears": null,
+      "ageNote": "2026/10信義06382Q標示預售；新濠岳社區資料估2029年Q3交屋，依本戶契約確認。",
+      "photoUrl": "https://res.sinyi.com.tw/buy/06382Q/bigimg/A.JPG",
+      "photoSource": "Sinyi official listing 06382Q; presale promotional image, not completed-unit photo"
     }
   ]
 }
