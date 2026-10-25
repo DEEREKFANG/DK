@@ -82,6 +82,23 @@ def main():
         if p.get("photoUrl") and not re.match(r"^https://", p["photoUrl"], re.I):
             p["photoUrl"] = ""
         items.append(p)
+    # Preserve individually researched items entered directly in the website
+    # when Google Sheets connector writing was unavailable. Google Sheet wins
+    # on a later matching sequence ID or source listing URL.
+    if OUT.exists():
+        try:
+            old_public = json.loads(OUT.read_text("utf-8"))
+            ids = {p["seq"] for p in items}
+            urls = {p.get("url") for p in items if p.get("url")}
+            for p in old_public.get("items", []):
+                if (p.get("manualEntry") is True and
+                    isinstance(p.get("seq"), int) and
+                    p["seq"] not in ids and
+                    str(p.get("url", "")).startswith("https://") and
+                    p["url"] not in urls):
+                    items.append(p)
+        except (ValueError, TypeError, KeyError):
+            pass
     items.sort(key=lambda x:x["seq"])
     if len(items) < 60:
         raise RuntimeError("Truncated Sheet? Refusing to publish only "+str(len(items))+" rows")
