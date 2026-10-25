@@ -41,6 +41,7 @@
 .property-photo-empty small{font-size:10px;color:#8298a2}
 .property-photo.table-photo .property-photo-empty{font-size:10px;padding:3px}
 .property-photo.table-photo .property-photo-empty small{display:none}
+.property-photo-presale{position:absolute;z-index:2;right:6px;bottom:6px;background:rgba(25,48,56,.86);color:#fff;padding:4px 7px;border-radius:6px;font-size:10px;font-weight:750;line-height:1.25;max-width:90%;pointer-events:none}.property-photo.table-photo .property-photo-presale{left:2px;right:2px;bottom:1px;font-size:8px;padding:2px 3px}
 </style>
 </head>
 <body>
@@ -157,8 +158,10 @@ function tagHTML(p){const k=p.heightType||'none';return`<span class="tag ${k.toL
 function safePhotoURL(value){const v=typeof value==='string'?value.trim():'';return /^https:\/\//i.test(v)?safeURL(v):''}
 function propertyPhoto(p,mode=''){
  const src=safePhotoURL(p.photoUrl),listing=safeURL(p.url);
+ const presale=/預售/.test([p.name,p.purpose,p.ageNote].join(' '));
  const missing='<span class="property-photo-empty"><strong>📷 屋況照片待補</strong><small>'+(listing?'點此查看原始刊登':'本戶無照片來源')+'</small></span>';
- const inner=missing+(src?'<img class="property-photo-img" loading="lazy" decoding="async" alt="'+escapeHTML(p.name)+' 本戶屋況照片" src="'+escapeHTML(src)+'">':'');
+ const note=presale?'<span class="property-photo-presale">預售展示圖・非完工實景</span>':'';
+ const inner=missing+(src?'<img class="property-photo-img" loading="lazy" decoding="async" alt="'+escapeHTML(p.name)+(presale?' 預售展示圖':' 原刊登照片')+'" src="'+escapeHTML(src)+'">'+note:'');
  return '<div class="property-photo '+escapeHTML(mode)+'">'+(listing?'<a class="property-photo-link" href="'+escapeHTML(listing)+'" target="_blank" rel="noopener noreferrer" title="查看本戶原始售屋刊登">'+inner+'</a>':inner)+'</div>';
 }
 function houseCard(p){let on=state.compare.includes(p.id),height=p.height?'挑高 '+formatArea(p.height)+'m':(p.heightType==='B'?'夾層線索':p.heightType==='C'?'待確認':'電梯／住宅候選');const monthly=cardMonthly(p);return`<article class="house-card">${propertyPhoto(p)}<div class="card-banner ${p.heightType||'none'}"><div><div class="banner-title">${escapeHTML(height)}</div><div class="banner-sub">${escapeHTML(p.district||'地區待查')} · ${escapeHTML(p.metro||'捷運待核')} · 屋齡${escapeHTML(ageText(p))}</div></div><div class="banner-housing"></div><div class="banner-index">#${p.seq}</div></div><div class="card-body"><div class="tags">${tagHTML(p)}</div><h3 class="card-name">${escapeHTML(p.name)}</h3><div class="card-location">${escapeHTML(p.district)} ${p.purpose?'／'+escapeHTML(p.purpose).slice(0,28):''}</div><div class="price-line"><div class="price">${money(p.price)}<small>萬</small></div><div class="unit-price">${p.price&&p.totalArea?'約 '+(p.price/p.totalArea).toFixed(1)+' 萬/坪':'單價待查'}</div></div><div class="card-specs"><div class="spec"><label>權狀坪數</label><b>${formatArea(p.totalArea)} 坪</b></div><div class="spec"><label>主建物坪數</label><b>${formatArea(p.mainArea)} 坪</b></div><div class="spec"><label>試算房貸/月</label><b>${monthly===null?'待查':money(monthly)+' 元'}</b></div></div><div class="card-note">${escapeHTML((p.specialRisk||p.cons||p.assessment||'尚未完成登記用途、屋況與在售查核'))}</div><div class="card-footer"><button class="btn small" data-detail="${p.id}">查看詳情 →</button><button title="${on?'取消':'加入'}比較" class="icon-btn ${on?'active':''}" data-compare="${p.id}">${icon('compare')}</button><button title="${p.favorite?'取消收藏':'收藏'}" class="icon-btn heart ${p.favorite?'active':''}" data-favorite="${p.id}">${icon('heart')}</button></div></div></article>`}
