@@ -2194,9 +2194,10 @@
       "related": "信義物件編號3938JT；現有其他SRC類社區非同戶，避免僅因關鍵字相似合併。",
       "ageYears": 6.2,
       "ageNote": "2026-10-25信義房屋3938JT刊登屋齡約6.2年，待建物謄本核對。",
-      "photoUrl": "",
+      "photoUrl": "https://res.sinyi.com.tw/buy/3938JT/bigimg/A.JPG",
       "manualEntry": true,
-      "manualSource": "exact Sinyi listing 3938JT; connector write to Google Sheet blocked"
+      "manualSource": "exact Sinyi listing 3938JT; connector write to Google Sheet blocked",
+      "photoSource": "listing_og:image"
     }
   ]
 }
