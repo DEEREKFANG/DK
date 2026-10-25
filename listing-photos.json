@@ -39,6 +39,15 @@
       "checkedAt": "2026-10-24T16:09:26+00:00"
     },
     {
+      "photoUrl": "https://static.rakuya.com.tw/r2/n750/99/dc/34600750_1_b.jpeg?1782981662",
+      "source": "listing_og:image",
+      "reason": "ok",
+      "title": "★【板橋區】府中捷運時尚套房 - 瓏山林新板時尚更多社區優質物件 | 樂屋網社區行情",
+      "seq": 17,
+      "url": "https://www.rakuya.com.tw/sell_item/info?ehid=0de1b0346007500",
+      "checkedAt": "2026-10-25T09:26:22+00:00"
+    },
+    {
       "photoUrl": "https://static.rakuya.com.tw/r1/n426/41/d6/35750426_1_b.jpeg?1791378611",
       "source": "listing_og:image",
       "reason": "ok",
@@ -161,7 +170,7 @@
       "reason": "http_403",
       "seq": 33,
       "url": "https://buy.houseprice.tw/house/32490318_2146375/",
-      "checkedAt": "2026-10-25T07:35:12+00:00"
+      "checkedAt": "2026-10-25T09:26:22+00:00"
     },
     {
       "photoUrl": "https://static.rakuya.com.tw/r1/n288/ec/93/32314288_17_b.jpeg?1783226874",
@@ -256,7 +265,7 @@
       "reason": "http_403",
       "seq": 44,
       "url": "https://buy.houseprice.tw/house/38629737_1025475",
-      "checkedAt": "2026-10-25T07:35:12+00:00"
+      "checkedAt": "2026-10-25T09:26:22+00:00"
     },
     {
       "photoUrl": "https://static.rakuya.com.tw/r1/n401/1a/57/34896401_1_b.jpeg?1785464304",
@@ -324,7 +333,7 @@
       "reason": "http_403",
       "seq": 52,
       "url": "https://buy.houseprice.tw/house/37435973_2005850",
-      "checkedAt": "2026-10-25T07:35:12+00:00"
+      "checkedAt": "2026-10-25T09:26:22+00:00"
     },
     {
       "photoUrl": "https://static.rakuya.com.tw/r1/n062/de/9f/34923062_1_b.jpeg?1785621849",
@@ -401,7 +410,7 @@
       "reason": "http_403",
       "seq": 61,
       "url": "https://buy.yungching.com.tw/house/7029139",
-      "checkedAt": "2026-10-25T07:35:12+00:00"
+      "checkedAt": "2026-10-25T09:26:22+00:00"
     },
     {
       "photoUrl": "https://static.rakuya.com.tw/r2/n575/e2/32/32547575_1_b.jpeg?1785215663",
@@ -522,6 +531,33 @@
       "seq": 78,
       "url": "https://www.sinyi.com.tw/buy/house/0649DB?breadcrumb=list",
       "checkedAt": "2026-10-25T07:35:12+00:00"
+    },
+    {
+      "photoUrl": "https://res.sinyi.com.tw/buy/1234NZ/bigimg/A.JPG",
+      "source": "listing_og:image",
+      "reason": "ok",
+      "title": "中山站邊間奢華小豪宅 - 信義房屋",
+      "seq": 80,
+      "url": "https://www.sinyi.com.tw/buy/house/1234NZ",
+      "checkedAt": "2026-10-25T09:26:22+00:00"
+    },
+    {
+      "photoUrl": "https://res.sinyi.com.tw/buy/0113PJ/bigimg/A.JPG",
+      "source": "listing_og:image",
+      "reason": "ok",
+      "title": "南京採光美廈小品 - 信義房屋",
+      "seq": 81,
+      "url": "https://www.sinyi.com.tw/buy/house/0113PJ",
+      "checkedAt": "2026-10-25T09:26:22+00:00"
+    },
+    {
+      "photoUrl": "https://static.rakuya.com.tw/r2/n559/fa/ae/34297559_8_b.jpeg?1785760178",
+      "source": "listing_og:image",
+      "reason": "ok",
+      "title": "(親友專約，仲介勿擾)府中站新板時尚高樓美屋Z141 - 新北市板橋區買房子、房屋出售 | 樂屋網",
+      "seq": 82,
+      "url": "https://www.rakuya.com.tw/sell_item/info?ehid=048e7d342975591",
+      "checkedAt": "2026-10-25T09:26:22+00:00"
     }
   ]
 }
