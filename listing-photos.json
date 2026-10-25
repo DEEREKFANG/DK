@@ -79,14 +79,14 @@
       "reason": "http_404",
       "seq": 23,
       "url": "https://community.rakuya.com.tw/55329/sell/info?ehid=0a8f45358370814",
-      "checkedAt": "2026-10-24T16:09:26+00:00"
+      "checkedAt": "2026-10-25T04:41:44+00:00"
     },
     {
       "photoUrl": "",
       "reason": "http_404",
       "seq": 24,
       "url": "https://community.rakuya.com.tw/38900/sell/info?ehid=0b0ba8358510634",
-      "checkedAt": "2026-10-24T16:09:26+00:00"
+      "checkedAt": "2026-10-25T04:41:44+00:00"
     },
     {
       "photoUrl": "https://static.rakuya.com.tw/r1/n010/29/53/35874010_1_b.jpeg?1792188317",
@@ -147,21 +147,21 @@
       "reason": "http_202",
       "seq": 31,
       "url": "https://buy.housefun.com.tw/buy/house/7002385",
-      "checkedAt": "2026-10-24T16:09:26+00:00"
+      "checkedAt": "2026-10-25T04:41:44+00:00"
     },
     {
       "photoUrl": "",
       "reason": "SSLError",
       "seq": 32,
       "url": "https://www.great-home.com.tw/Detail/?sn=TB10928",
-      "checkedAt": "2026-10-24T16:09:26+00:00"
+      "checkedAt": "2026-10-25T04:41:44+00:00"
     },
     {
       "photoUrl": "",
       "reason": "http_403",
       "seq": 33,
       "url": "https://buy.houseprice.tw/house/32490318_2146375/",
-      "checkedAt": "2026-10-25T00:01:56+00:00"
+      "checkedAt": "2026-10-25T04:41:44+00:00"
     },
     {
       "photoUrl": "https://static.rakuya.com.tw/r1/n288/ec/93/32314288_17_b.jpeg?1783226874",
@@ -209,25 +209,29 @@
       "checkedAt": "2026-10-24T16:09:26+00:00"
     },
     {
-      "photoUrl": "",
-      "reason": "http_429",
+      "photoUrl": "https://img1.591.com.tw/house/2026/07/06/178334723283129604.jpg!1000x.water2.jpg",
+      "source": "listing_og:image",
+      "reason": "ok",
+      "title": "河景盡收眼底不帶車位總價好入手 - 591售屋網",
       "seq": 39,
       "url": "https://sale.591.com.tw/home/house/detail/2/21008096.html",
-      "checkedAt": "2026-10-24T16:09:26+00:00"
+      "checkedAt": "2026-10-25T04:41:44+00:00"
     },
     {
       "photoUrl": "",
       "reason": "http_404",
       "seq": 40,
       "url": "https://community.rakuya.com.tw/40782/sell/info?ehid=0a7bfa35826602d",
-      "checkedAt": "2026-10-24T16:09:26+00:00"
+      "checkedAt": "2026-10-25T04:41:44+00:00"
     },
     {
-      "photoUrl": "",
-      "reason": "http_429",
+      "photoUrl": "https://img1.591.com.tw/house/2026/10/02/179091667033887006.jpg!1000x.water2.jpg",
+      "source": "listing_og:image",
+      "reason": "ok",
+      "title": "【樸和團隊】美麗時代室內挑高3米6 - 591售屋網",
       "seq": 41,
       "url": "https://sale.591.com.tw/home/house/detail/2/20836885.html",
-      "checkedAt": "2026-10-24T16:09:26+00:00"
+      "checkedAt": "2026-10-25T04:41:44+00:00"
     },
     {
       "photoUrl": "https://static.rakuya.com.tw/r1/n171/f6/a5/35841171_8_b.jpeg?1792620706",
@@ -239,18 +243,20 @@
       "checkedAt": "2026-10-24T16:09:26+00:00"
     },
     {
-      "photoUrl": "",
-      "reason": "http_429",
+      "photoUrl": "https://img2.591.com.tw/house/2026/08/18/178703919907055001.jpg!1000x.water2.jpg",
+      "source": "listing_og:image",
+      "reason": "ok",
+      "title": "🔥【站前凱悅】捷運景觀美套房・高樓稀有釋出🔥 - 591售屋網",
       "seq": 43,
       "url": "https://sale.591.com.tw/home/house/detail/2/20755565.html",
-      "checkedAt": "2026-10-24T16:09:26+00:00"
+      "checkedAt": "2026-10-25T04:41:44+00:00"
     },
     {
       "photoUrl": "",
       "reason": "http_403",
       "seq": 44,
       "url": "https://buy.houseprice.tw/house/38629737_1025475",
-      "checkedAt": "2026-10-25T00:01:56+00:00"
+      "checkedAt": "2026-10-25T04:41:44+00:00"
     },
     {
       "photoUrl": "https://static.rakuya.com.tw/r1/n401/1a/57/34896401_1_b.jpeg?1785464304",
@@ -266,7 +272,7 @@
       "reason": "http_404",
       "seq": 46,
       "url": "https://www.rakuya.com.tw/sell_item/info?ehid=0da143345114612",
-      "checkedAt": "2026-10-24T16:10:45+00:00"
+      "checkedAt": "2026-10-25T04:41:44+00:00"
     },
     {
       "photoUrl": "https://static.rakuya.com.tw/r1/n174/8c/2a/34209174_15_b.jpeg?1784851203",
@@ -318,7 +324,7 @@
       "reason": "http_403",
       "seq": 52,
       "url": "https://buy.houseprice.tw/house/37435973_2005850",
-      "checkedAt": "2026-10-25T00:01:56+00:00"
+      "checkedAt": "2026-10-25T04:41:44+00:00"
     },
     {
       "photoUrl": "https://static.rakuya.com.tw/r1/n062/de/9f/34923062_1_b.jpeg?1785621849",
@@ -361,7 +367,7 @@
       "reason": "http_404",
       "seq": 57,
       "url": "https://www.rakuya.com.tw/sell_item/info?ehid=02cec0358673707",
-      "checkedAt": "2026-10-24T16:10:45+00:00"
+      "checkedAt": "2026-10-25T04:41:44+00:00"
     },
     {
       "photoUrl": "https://static.rakuya.com.tw/r1/n189/20/28/33440189_2_b.jpeg?1772620115",
@@ -395,7 +401,7 @@
       "reason": "http_403",
       "seq": 61,
       "url": "https://buy.yungching.com.tw/house/7029139",
-      "checkedAt": "2026-10-25T00:01:56+00:00"
+      "checkedAt": "2026-10-25T04:41:44+00:00"
     },
     {
       "photoUrl": "https://static.rakuya.com.tw/r2/n575/e2/32/32547575_1_b.jpeg?1785215663",
@@ -411,7 +417,7 @@
       "reason": "http_404",
       "seq": 63,
       "url": "https://community.rakuya.com.tw/55566/sell/info?ehid=0d00c7350291870",
-      "checkedAt": "2026-10-24T16:10:45+00:00"
+      "checkedAt": "2026-10-25T04:41:44+00:00"
     },
     {
       "photoUrl": "https://static.rakuya.com.tw/r2/n774/c1/96/33742774_13_b.jpeg?1786156925",
@@ -427,7 +433,7 @@
       "reason": "http_404",
       "seq": 65,
       "url": "https://community.rakuya.com.tw/55305/sell/info?ehid=01205a348138007",
-      "checkedAt": "2026-10-24T16:10:45+00:00"
+      "checkedAt": "2026-10-25T04:41:44+00:00"
     },
     {
       "photoUrl": "https://res.sinyi.com.tw/buy/8737WG/bigimg/A.JPG",
@@ -488,7 +494,16 @@
       "reason": "http_404",
       "seq": 72,
       "url": "https://buy.houseprice.tw/house/36444763_381502",
-      "checkedAt": "2026-10-24T16:20:58+00:00"
+      "checkedAt": "2026-10-25T04:41:44+00:00"
+    },
+    {
+      "photoUrl": "https://res.sinyi.com.tw/buy/2875VX/bigimg/A.JPG",
+      "source": "listing_og:image",
+      "reason": "ok",
+      "title": "［江子翠］發樓ＭＥ套房 - 信義房屋",
+      "seq": 74,
+      "url": "https://www.sinyi.com.tw/buy/house/2875VX",
+      "checkedAt": "2026-10-25T04:41:44+00:00"
     }
   ]
 }
