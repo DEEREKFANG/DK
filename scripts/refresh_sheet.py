@@ -100,5 +100,61 @@ def main():
         print("SHEET_SYNC_OK: {} properties, generated {}".format(len(items),OUT))
     print("SHEET_SOURCE_URL="+URL)
 
+PENDING_GID = "762574754"
+PENDING_OUT = BASE / "pending-listings.json"
+PENDING_URL = f"https://docs.google.com/spreadsheets/d/{SHEET_ID}/export?format=csv&gid={PENDING_GID}"
+PENDING_FIELDS = {
+    "收到日期": "received",
+    "房源平台": "platform",
+    "原始連結": "url",
+    "社區／房名": "name",
+    "開價（萬）": "price",
+    "核查狀態": "status",
+    "說明／待確認": "note",
+}
+
+def sync_pending():
+    """Publish ONLY public property links from the dedicated unresolved-listings tab."""
+    try:
+        res = requests.get(PENDING_URL, timeout=35, headers={
+            "User-Agent": "Mozilla/5.0 (compatible; PersonalHomeSheetSync/1.0)",
+            "Accept": "text/csv,text/plain,*/*",
+        })
+        res.raise_for_status()
+        data = res.content.decode("utf-8-sig", errors="replace")
+        if not data.strip() or "<html" in data[:1200].lower():
+            raise RuntimeError("Expected CSV, got blank or HTML")
+        reader = csv.DictReader(io.StringIO(data))
+        if not all(k in set(reader.fieldnames or []) for k in PENDING_FIELDS):
+            raise RuntimeError("Missing pending-listing CSV columns")
+        items = []
+        seen = set()
+        for r in reader:
+            url = (r.get("原始連結") or "").strip()
+            if not re.match(r"^https://[^/\s]+", url, flags=re.I):
+                continue
+            if url in seen: continue
+            seen.add(url)
+            item = {dest: (r.get(src) or "").strip()[:1800]
+                    for src, dest in PENDING_FIELDS.items()}
+            items.append(item)
+        if len(items) > 500:
+            raise RuntimeError("Unexpected pending-listing record count")
+        output = {
+            "schemaVersion": 1, "source": "google_sheet_pending_listing_links",
+            "sheetId": SHEET_ID, "sheetGid": PENDING_GID,
+            "count": len(items), "items": items,
+        }
+        content = json.dumps(output, ensure_ascii=False, indent=2) + "\n"
+        if not PENDING_OUT.exists() or PENDING_OUT.read_text("utf-8") != content:
+            PENDING_OUT.write_text(content, encoding="utf-8")
+            print(f"PENDING_SYNC_OK: {len(items)} links updated")
+        else:
+            print(f"PENDING_SYNC_OK: {len(items)} links unchanged")
+    except (requests.RequestException, ValueError, RuntimeError) as e:
+        # Keep previously published pending records if Google is temporarily unavailable.
+        print(f"PENDING_SYNC_WARNING: previous data preserved: {e}", file=sys.stderr)
+
 if __name__=="__main__":
     main()
+    sync_pending()
