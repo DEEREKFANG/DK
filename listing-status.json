@@ -1,14 +1,14 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-25T14:08:33+08:00",
+  "generatedAt": "2026-10-25T15:36:00+08:00",
   "timezone": "Asia/Taipei",
   "notice": "可讀取刊登頁不代表真正可購買；僅明確出現本戶已成交才標已售，404不算成交。",
   "total": 71,
   "counts": {
-    "unknown": 24,
+    "unknown": 22,
     "no_url": 13,
+    "blocked": 16,
     "community_page": 18,
-    "blocked": 14,
     "missing_page": 2
   },
   "results": [
@@ -21,7 +21,7 @@
       "reason": "檢查程序失敗：RuntimeError",
       "httpCode": null,
       "pageTitle": "",
-      "checkedAt": "2026-10-25T14:08:27+08:00",
+      "checkedAt": "2026-10-25T15:35:50+08:00",
       "previousStatus": "unknown",
       "changedAt": "2026-10-24T12:58:56+08:00"
     },
@@ -34,7 +34,7 @@
       "reason": "檢查程序失敗：RuntimeError",
       "httpCode": null,
       "pageTitle": "",
-      "checkedAt": "2026-10-25T14:08:26+08:00",
+      "checkedAt": "2026-10-25T15:35:50+08:00",
       "previousStatus": "unknown",
       "changedAt": "2026-10-24T12:54:37+08:00"
     },
@@ -47,7 +47,7 @@
       "reason": "原始單戶刊登網址缺漏；無法自動確認",
       "httpCode": null,
       "pageTitle": "",
-      "checkedAt": "2026-10-25T14:08:24+08:00",
+      "checkedAt": "2026-10-25T15:35:48+08:00",
       "previousStatus": "no_url",
       "changedAt": "2026-10-24T12:41:32+08:00"
     },
@@ -60,7 +60,7 @@
       "reason": "原始單戶刊登網址缺漏；無法自動確認",
       "httpCode": null,
       "pageTitle": "",
-      "checkedAt": "2026-10-25T14:08:24+08:00",
+      "checkedAt": "2026-10-25T15:35:48+08:00",
       "previousStatus": "no_url",
       "changedAt": "2026-10-24T12:41:32+08:00"
     },
@@ -73,7 +73,7 @@
       "reason": "檢查程序失敗：RuntimeError",
       "httpCode": null,
       "pageTitle": "",
-      "checkedAt": "2026-10-25T14:08:26+08:00",
+      "checkedAt": "2026-10-25T15:35:49+08:00",
       "previousStatus": "unknown",
       "changedAt": "2026-10-24T13:37:59+08:00"
     },
@@ -86,7 +86,7 @@
       "reason": "原始單戶刊登網址缺漏；無法自動確認",
       "httpCode": null,
       "pageTitle": "",
-      "checkedAt": "2026-10-25T14:08:24+08:00",
+      "checkedAt": "2026-10-25T15:35:48+08:00",
       "previousStatus": "no_url",
       "changedAt": "2026-10-24T12:41:32+08:00"
     },
@@ -99,7 +99,7 @@
       "reason": "原始單戶刊登網址缺漏；無法自動確認",
       "httpCode": null,
       "pageTitle": "",
-      "checkedAt": "2026-10-25T14:08:24+08:00",
+      "checkedAt": "2026-10-25T15:35:48+08:00",
       "previousStatus": "no_url",
       "changedAt": "2026-10-24T12:41:32+08:00"
     },
@@ -112,7 +112,7 @@
       "reason": "原始單戶刊登網址缺漏；無法自動確認",
       "httpCode": null,
       "pageTitle": "",
-      "checkedAt": "2026-10-25T14:08:24+08:00",
+      "checkedAt": "2026-10-25T15:35:48+08:00",
       "previousStatus": "no_url",
       "changedAt": "2026-10-24T12:41:32+08:00"
     },
@@ -125,7 +125,7 @@
       "reason": "原始單戶刊登網址缺漏；無法自動確認",
       "httpCode": null,
       "pageTitle": "",
-      "checkedAt": "2026-10-25T14:08:24+08:00",
+      "checkedAt": "2026-10-25T15:35:48+08:00",
       "previousStatus": "no_url",
       "changedAt": "2026-10-24T12:41:32+08:00"
     },
@@ -138,7 +138,7 @@
       "reason": "原始單戶刊登網址缺漏；無法自動確認",
       "httpCode": null,
       "pageTitle": "",
-      "checkedAt": "2026-10-25T14:08:24+08:00",
+      "checkedAt": "2026-10-25T15:35:48+08:00",
       "previousStatus": "no_url",
       "changedAt": "2026-10-24T12:41:32+08:00"
     },
@@ -147,13 +147,13 @@
       "seq": 11,
       "name": "少年頭家",
       "sourceUrl": "https://www.hbhousing.com.tw/detail?sn=YS202069",
-      "status": "unknown",
-      "reason": "檢查程序失敗：RuntimeError",
-      "httpCode": null,
+      "status": "blocked",
+      "reason": "網站拒絕或限制自動讀取（HTTP 403）",
+      "httpCode": 403,
       "pageTitle": "",
-      "checkedAt": "2026-10-25T14:08:25+08:00",
+      "checkedAt": "2026-10-25T15:35:48+08:00",
       "previousStatus": "unknown",
-      "changedAt": "2026-10-24T12:41:34+08:00"
+      "changedAt": "2026-10-25T15:35:48+08:00"
     },
     {
       "id": "H012",
@@ -164,7 +164,7 @@
       "reason": "原始單戶刊登網址缺漏；無法自動確認",
       "httpCode": null,
       "pageTitle": "",
-      "checkedAt": "2026-10-25T14:08:25+08:00",
+      "checkedAt": "2026-10-25T15:35:48+08:00",
       "previousStatus": "no_url",
       "changedAt": "2026-10-24T12:41:32+08:00"
     },
@@ -177,7 +177,7 @@
       "reason": "原始單戶刊登網址缺漏；無法自動確認",
       "httpCode": null,
       "pageTitle": "",
-      "checkedAt": "2026-10-25T14:08:25+08:00",
+      "checkedAt": "2026-10-25T15:35:48+08:00",
       "previousStatus": "no_url",
       "changedAt": "2026-10-24T12:41:32+08:00"
     },
@@ -190,7 +190,7 @@
       "reason": "原始單戶刊登網址缺漏；無法自動確認",
       "httpCode": null,
       "pageTitle": "",
-      "checkedAt": "2026-10-25T14:08:25+08:00",
+      "checkedAt": "2026-10-25T15:35:48+08:00",
       "previousStatus": "no_url",
       "changedAt": "2026-10-24T12:41:32+08:00"
     },
@@ -203,7 +203,7 @@
       "reason": "原始單戶刊登網址缺漏；無法自動確認",
       "httpCode": null,
       "pageTitle": "",
-      "checkedAt": "2026-10-25T14:08:25+08:00",
+      "checkedAt": "2026-10-25T15:35:48+08:00",
       "previousStatus": "no_url",
       "changedAt": "2026-10-24T12:41:32+08:00"
     },
@@ -216,7 +216,7 @@
       "reason": "原始單戶刊登網址缺漏；無法自動確認",
       "httpCode": null,
       "pageTitle": "",
-      "checkedAt": "2026-10-25T14:08:25+08:00",
+      "checkedAt": "2026-10-25T15:35:48+08:00",
       "previousStatus": "no_url",
       "changedAt": "2026-10-24T12:41:32+08:00"
     },
@@ -229,7 +229,7 @@
       "reason": "原始單戶刊登網址缺漏；無法自動確認",
       "httpCode": null,
       "pageTitle": "",
-      "checkedAt": "2026-10-25T14:08:25+08:00",
+      "checkedAt": "2026-10-25T15:35:48+08:00",
       "previousStatus": "no_url",
       "changedAt": "2026-10-24T12:41:32+08:00"
     },
@@ -242,7 +242,7 @@
       "reason": "來源為社區或彙整頁，不能驗證指定單戶",
       "httpCode": null,
       "pageTitle": "",
-      "checkedAt": "2026-10-25T14:08:25+08:00",
+      "checkedAt": "2026-10-25T15:35:48+08:00",
       "previousStatus": "community_page",
       "changedAt": "2026-10-24T12:41:32+08:00"
     },
@@ -255,7 +255,7 @@
       "reason": "來源為社區或彙整頁，不能驗證指定單戶",
       "httpCode": null,
       "pageTitle": "",
-      "checkedAt": "2026-10-25T14:08:25+08:00",
+      "checkedAt": "2026-10-25T15:35:48+08:00",
       "previousStatus": "community_page",
       "changedAt": "2026-10-24T12:41:32+08:00"
     },
@@ -268,7 +268,7 @@
       "reason": "來源為社區或彙整頁，不能驗證指定單戶",
       "httpCode": null,
       "pageTitle": "",
-      "checkedAt": "2026-10-25T14:08:25+08:00",
+      "checkedAt": "2026-10-25T15:35:48+08:00",
       "previousStatus": "community_page",
       "changedAt": "2026-10-24T12:41:32+08:00"
     },
@@ -281,7 +281,7 @@
       "reason": "來源為社區或彙整頁，不能驗證指定單戶",
       "httpCode": null,
       "pageTitle": "",
-      "checkedAt": "2026-10-25T14:08:25+08:00",
+      "checkedAt": "2026-10-25T15:35:48+08:00",
       "previousStatus": "community_page",
       "changedAt": "2026-10-24T12:41:32+08:00"
     },
@@ -294,7 +294,7 @@
       "reason": "檢查程序失敗：RuntimeError",
       "httpCode": null,
       "pageTitle": "",
-      "checkedAt": "2026-10-25T14:08:26+08:00",
+      "checkedAt": "2026-10-25T15:35:50+08:00",
       "previousStatus": "unknown",
       "changedAt": "2026-10-24T12:41:33+08:00"
     },
@@ -307,7 +307,7 @@
       "reason": "來源為社區或彙整頁，不能驗證指定單戶",
       "httpCode": null,
       "pageTitle": "",
-      "checkedAt": "2026-10-25T14:08:26+08:00",
+      "checkedAt": "2026-10-25T15:35:49+08:00",
       "previousStatus": "community_page",
       "changedAt": "2026-10-24T12:41:32+08:00"
     },
@@ -320,7 +320,7 @@
       "reason": "來源為社區或彙整頁，不能驗證指定單戶",
       "httpCode": null,
       "pageTitle": "",
-      "checkedAt": "2026-10-25T14:08:26+08:00",
+      "checkedAt": "2026-10-25T15:35:49+08:00",
       "previousStatus": "community_page",
       "changedAt": "2026-10-24T12:41:32+08:00"
     },
@@ -333,7 +333,7 @@
       "reason": "來源為社區或彙整頁，不能驗證指定單戶",
       "httpCode": null,
       "pageTitle": "",
-      "checkedAt": "2026-10-25T14:08:26+08:00",
+      "checkedAt": "2026-10-25T15:35:49+08:00",
       "previousStatus": "community_page",
       "changedAt": "2026-10-24T12:41:32+08:00"
     },
@@ -346,7 +346,7 @@
       "reason": "來源為社區或彙整頁，不能驗證指定單戶",
       "httpCode": null,
       "pageTitle": "",
-      "checkedAt": "2026-10-25T14:08:26+08:00",
+      "checkedAt": "2026-10-25T15:35:49+08:00",
       "previousStatus": "community_page",
       "changedAt": "2026-10-24T12:41:32+08:00"
     },
@@ -359,7 +359,7 @@
       "reason": "網站拒絕或限制自動讀取（HTTP 403）",
       "httpCode": 403,
       "pageTitle": "",
-      "checkedAt": "2026-10-25T14:08:26+08:00",
+      "checkedAt": "2026-10-25T15:35:50+08:00",
       "previousStatus": "blocked",
       "changedAt": "2026-10-24T12:41:33+08:00"
     },
@@ -372,7 +372,7 @@
       "reason": "網站拒絕或限制自動讀取（HTTP 403）",
       "httpCode": 403,
       "pageTitle": "",
-      "checkedAt": "2026-10-25T14:08:26+08:00",
+      "checkedAt": "2026-10-25T15:35:50+08:00",
       "previousStatus": "blocked",
       "changedAt": "2026-10-24T12:41:33+08:00"
     },
@@ -385,7 +385,7 @@
       "reason": "網站拒絕或限制自動讀取（HTTP 403）",
       "httpCode": 403,
       "pageTitle": "",
-      "checkedAt": "2026-10-25T14:08:27+08:00",
+      "checkedAt": "2026-10-25T15:35:50+08:00",
       "previousStatus": "blocked",
       "changedAt": "2026-10-24T12:41:33+08:00"
     },
@@ -394,13 +394,13 @@
       "seq": 30,
       "name": "少年頭家（住商）",
       "sourceUrl": "https://www.hbhousing.com.tw/detail/?sn=YS202069",
-      "status": "unknown",
-      "reason": "檢查程序失敗：RuntimeError",
-      "httpCode": null,
+      "status": "blocked",
+      "reason": "網站拒絕或限制自動讀取（HTTP 403）",
+      "httpCode": 403,
       "pageTitle": "",
-      "checkedAt": "2026-10-25T14:08:28+08:00",
+      "checkedAt": "2026-10-25T15:35:51+08:00",
       "previousStatus": "unknown",
-      "changedAt": "2026-10-24T12:41:35+08:00"
+      "changedAt": "2026-10-25T15:35:51+08:00"
     },
     {
       "id": "H031",
@@ -411,7 +411,7 @@
       "reason": "檢查程序失敗：RuntimeError",
       "httpCode": null,
       "pageTitle": "",
-      "checkedAt": "2026-10-25T14:08:27+08:00",
+      "checkedAt": "2026-10-25T15:35:50+08:00",
       "previousStatus": "unknown",
       "changedAt": "2026-10-24T12:41:33+08:00"
     },
@@ -424,7 +424,7 @@
       "reason": "自動查核無法取得有效頁面：SSLError",
       "httpCode": null,
       "pageTitle": "",
-      "checkedAt": "2026-10-25T14:08:27+08:00",
+      "checkedAt": "2026-10-25T15:35:51+08:00",
       "previousStatus": "unknown",
       "changedAt": "2026-10-24T12:41:34+08:00"
     },
@@ -437,7 +437,7 @@
       "reason": "網站拒絕或限制自動讀取（HTTP 403）",
       "httpCode": 403,
       "pageTitle": "",
-      "checkedAt": "2026-10-25T14:08:27+08:00",
+      "checkedAt": "2026-10-25T15:35:51+08:00",
       "previousStatus": "blocked",
       "changedAt": "2026-10-24T12:41:35+08:00"
     },
@@ -450,7 +450,7 @@
       "reason": "來源為社區或彙整頁，不能驗證指定單戶",
       "httpCode": null,
       "pageTitle": "",
-      "checkedAt": "2026-10-25T14:08:27+08:00",
+      "checkedAt": "2026-10-25T15:35:50+08:00",
       "previousStatus": "community_page",
       "changedAt": "2026-10-24T12:41:34+08:00"
     },
@@ -463,7 +463,7 @@
       "reason": "來源為社區或彙整頁，不能驗證指定單戶",
       "httpCode": null,
       "pageTitle": "",
-      "checkedAt": "2026-10-25T14:08:27+08:00",
+      "checkedAt": "2026-10-25T15:35:50+08:00",
       "previousStatus": "community_page",
       "changedAt": "2026-10-24T12:41:34+08:00"
     },
@@ -476,7 +476,7 @@
       "reason": "網站拒絕或限制自動讀取（HTTP 403）",
       "httpCode": 403,
       "pageTitle": "",
-      "checkedAt": "2026-10-25T14:08:27+08:00",
+      "checkedAt": "2026-10-25T15:35:50+08:00",
       "previousStatus": "blocked",
       "changedAt": "2026-10-24T12:41:35+08:00"
     },
@@ -489,7 +489,7 @@
       "reason": "網站拒絕或限制自動讀取（HTTP 403）",
       "httpCode": 403,
       "pageTitle": "",
-      "checkedAt": "2026-10-25T14:08:27+08:00",
+      "checkedAt": "2026-10-25T15:35:50+08:00",
       "previousStatus": "blocked",
       "changedAt": "2026-10-24T12:41:35+08:00"
     },
@@ -502,7 +502,7 @@
       "reason": "網站拒絕或限制自動讀取（HTTP 403）",
       "httpCode": 403,
       "pageTitle": "",
-      "checkedAt": "2026-10-25T14:08:27+08:00",
+      "checkedAt": "2026-10-25T15:35:51+08:00",
       "previousStatus": "blocked",
       "changedAt": "2026-10-24T12:41:35+08:00"
     },
@@ -515,7 +515,7 @@
       "reason": "網站拒絕或限制自動讀取（HTTP 403）",
       "httpCode": 403,
       "pageTitle": "",
-      "checkedAt": "2026-10-25T14:08:28+08:00",
+      "checkedAt": "2026-10-25T15:35:51+08:00",
       "previousStatus": "blocked",
       "changedAt": "2026-10-24T12:41:35+08:00"
     },
@@ -528,7 +528,7 @@
       "reason": "來源為社區或彙整頁，不能驗證指定單戶",
       "httpCode": null,
       "pageTitle": "",
-      "checkedAt": "2026-10-25T14:08:27+08:00",
+      "checkedAt": "2026-10-25T15:35:51+08:00",
       "previousStatus": "community_page",
       "changedAt": "2026-10-24T12:41:35+08:00"
     },
@@ -541,7 +541,7 @@
       "reason": "網站拒絕或限制自動讀取（HTTP 403）",
       "httpCode": 403,
       "pageTitle": "",
-      "checkedAt": "2026-10-25T14:08:28+08:00",
+      "checkedAt": "2026-10-25T15:35:51+08:00",
       "previousStatus": "blocked",
       "changedAt": "2026-10-24T12:41:35+08:00"
     },
@@ -554,7 +554,7 @@
       "reason": "來源為社區或彙整頁，不能驗證指定單戶",
       "httpCode": null,
       "pageTitle": "",
-      "checkedAt": "2026-10-25T14:08:27+08:00",
+      "checkedAt": "2026-10-25T15:35:51+08:00",
       "previousStatus": "community_page",
       "changedAt": "2026-10-24T12:41:35+08:00"
     },
@@ -567,7 +567,7 @@
       "reason": "網站拒絕或限制自動讀取（HTTP 403）",
       "httpCode": 403,
       "pageTitle": "",
-      "checkedAt": "2026-10-25T14:08:28+08:00",
+      "checkedAt": "2026-10-25T15:35:51+08:00",
       "previousStatus": "blocked",
       "changedAt": "2026-10-24T12:41:35+08:00"
     },
@@ -580,7 +580,7 @@
       "reason": "網站拒絕或限制自動讀取（HTTP 403）",
       "httpCode": 403,
       "pageTitle": "",
-      "checkedAt": "2026-10-25T14:08:28+08:00",
+      "checkedAt": "2026-10-25T15:35:51+08:00",
       "previousStatus": "blocked",
       "changedAt": "2026-10-24T12:41:35+08:00"
     },
@@ -593,7 +593,7 @@
       "reason": "檢查程序失敗：RuntimeError",
       "httpCode": null,
       "pageTitle": "",
-      "checkedAt": "2026-10-25T14:08:29+08:00",
+      "checkedAt": "2026-10-25T15:35:53+08:00",
       "previousStatus": "unknown",
       "changedAt": "2026-10-24T12:41:36+08:00"
     },
@@ -606,7 +606,7 @@
       "reason": "房源頁回傳 404；可能下架，不代表已成交",
       "httpCode": 404,
       "pageTitle": "",
-      "checkedAt": "2026-10-25T14:08:28+08:00",
+      "checkedAt": "2026-10-25T15:35:52+08:00",
       "previousStatus": "missing_page",
       "changedAt": "2026-10-24T12:41:35+08:00"
     },
@@ -619,7 +619,7 @@
       "reason": "檢查程序失敗：RuntimeError",
       "httpCode": null,
       "pageTitle": "",
-      "checkedAt": "2026-10-25T14:08:29+08:00",
+      "checkedAt": "2026-10-25T15:35:55+08:00",
       "previousStatus": "unknown",
       "changedAt": "2026-10-24T12:41:36+08:00"
     },
@@ -632,7 +632,7 @@
       "reason": "檢查程序失敗：RuntimeError",
       "httpCode": null,
       "pageTitle": "",
-      "checkedAt": "2026-10-25T14:08:29+08:00",
+      "checkedAt": "2026-10-25T15:35:53+08:00",
       "previousStatus": "unknown",
       "changedAt": "2026-10-24T12:41:36+08:00"
     },
@@ -645,7 +645,7 @@
       "reason": "檢查程序失敗：RuntimeError",
       "httpCode": null,
       "pageTitle": "",
-      "checkedAt": "2026-10-25T14:08:29+08:00",
+      "checkedAt": "2026-10-25T15:35:53+08:00",
       "previousStatus": "unknown",
       "changedAt": "2026-10-24T12:41:37+08:00"
     },
@@ -658,7 +658,7 @@
       "reason": "檢查程序失敗：RuntimeError",
       "httpCode": null,
       "pageTitle": "",
-      "checkedAt": "2026-10-25T14:08:30+08:00",
+      "checkedAt": "2026-10-25T15:35:55+08:00",
       "previousStatus": "unknown",
       "changedAt": "2026-10-24T12:41:38+08:00"
     },
@@ -671,7 +671,7 @@
       "reason": "網站拒絕或限制自動讀取（HTTP 403）",
       "httpCode": 403,
       "pageTitle": "",
-      "checkedAt": "2026-10-25T14:08:30+08:00",
+      "checkedAt": "2026-10-25T15:35:53+08:00",
       "previousStatus": "blocked",
       "changedAt": "2026-10-24T12:41:37+08:00"
     },
@@ -684,7 +684,7 @@
       "reason": "網站拒絕或限制自動讀取（HTTP 403）",
       "httpCode": 403,
       "pageTitle": "",
-      "checkedAt": "2026-10-25T14:08:30+08:00",
+      "checkedAt": "2026-10-25T15:35:54+08:00",
       "previousStatus": "blocked",
       "changedAt": "2026-10-24T12:41:37+08:00"
     },
@@ -697,7 +697,7 @@
       "reason": "檢查程序失敗：RuntimeError",
       "httpCode": null,
       "pageTitle": "",
-      "checkedAt": "2026-10-25T14:08:30+08:00",
+      "checkedAt": "2026-10-25T15:35:56+08:00",
       "previousStatus": "unknown",
       "changedAt": "2026-10-24T12:41:38+08:00"
     },
@@ -710,7 +710,7 @@
       "reason": "來源為社區或彙整頁，不能驗證指定單戶",
       "httpCode": null,
       "pageTitle": "",
-      "checkedAt": "2026-10-25T14:08:30+08:00",
+      "checkedAt": "2026-10-25T15:35:54+08:00",
       "previousStatus": "community_page",
       "changedAt": "2026-10-24T12:41:37+08:00"
     },
@@ -723,7 +723,7 @@
       "reason": "來源為社區或彙整頁，不能驗證指定單戶",
       "httpCode": null,
       "pageTitle": "",
-      "checkedAt": "2026-10-25T14:08:30+08:00",
+      "checkedAt": "2026-10-25T15:35:54+08:00",
       "previousStatus": "community_page",
       "changedAt": "2026-10-24T12:41:37+08:00"
     },
@@ -736,7 +736,7 @@
       "reason": "檢查程序失敗：RuntimeError",
       "httpCode": null,
       "pageTitle": "",
-      "checkedAt": "2026-10-25T14:08:31+08:00",
+      "checkedAt": "2026-10-25T15:35:55+08:00",
       "previousStatus": "unknown",
       "changedAt": "2026-10-24T12:41:39+08:00"
     },
@@ -749,7 +749,7 @@
       "reason": "房源頁回傳 404；可能下架，不代表已成交",
       "httpCode": 404,
       "pageTitle": "",
-      "checkedAt": "2026-10-25T14:08:30+08:00",
+      "checkedAt": "2026-10-25T15:35:56+08:00",
       "previousStatus": "missing_page",
       "changedAt": "2026-10-24T23:57:54+08:00"
     },
@@ -762,7 +762,7 @@
       "reason": "檢查程序失敗：RuntimeError",
       "httpCode": null,
       "pageTitle": "",
-      "checkedAt": "2026-10-25T14:08:32+08:00",
+      "checkedAt": "2026-10-25T15:35:58+08:00",
       "previousStatus": "unknown",
       "changedAt": "2026-10-24T12:41:39+08:00"
     },
@@ -775,7 +775,7 @@
       "reason": "檢查程序失敗：RuntimeError",
       "httpCode": null,
       "pageTitle": "",
-      "checkedAt": "2026-10-25T14:08:32+08:00",
+      "checkedAt": "2026-10-25T15:35:56+08:00",
       "previousStatus": "unknown",
       "changedAt": "2026-10-24T12:41:40+08:00"
     },
@@ -788,7 +788,7 @@
       "reason": "檢查程序失敗：RuntimeError",
       "httpCode": null,
       "pageTitle": "",
-      "checkedAt": "2026-10-25T14:08:32+08:00",
+      "checkedAt": "2026-10-25T15:35:58+08:00",
       "previousStatus": "unknown",
       "changedAt": "2026-10-24T12:41:40+08:00"
     },
@@ -801,7 +801,7 @@
       "reason": "網站拒絕或限制自動讀取（HTTP 403）",
       "httpCode": 403,
       "pageTitle": "",
-      "checkedAt": "2026-10-25T14:08:31+08:00",
+      "checkedAt": "2026-10-25T15:35:56+08:00",
       "previousStatus": "blocked",
       "changedAt": "2026-10-24T12:41:40+08:00"
     },
@@ -814,7 +814,7 @@
       "reason": "來源為社區或彙整頁，不能驗證指定單戶",
       "httpCode": null,
       "pageTitle": "",
-      "checkedAt": "2026-10-25T14:08:31+08:00",
+      "checkedAt": "2026-10-25T15:35:56+08:00",
       "previousStatus": "community_page",
       "changedAt": "2026-10-24T13:01:25+08:00"
     },
@@ -827,7 +827,7 @@
       "reason": "來源為社區或彙整頁，不能驗證指定單戶",
       "httpCode": null,
       "pageTitle": "",
-      "checkedAt": "2026-10-25T14:08:31+08:00",
+      "checkedAt": "2026-10-25T15:35:56+08:00",
       "previousStatus": "community_page",
       "changedAt": "2026-10-24T13:01:25+08:00"
     },
@@ -840,7 +840,7 @@
       "reason": "來源為社區或彙整頁，不能驗證指定單戶",
       "httpCode": null,
       "pageTitle": "",
-      "checkedAt": "2026-10-25T14:08:31+08:00",
+      "checkedAt": "2026-10-25T15:35:56+08:00",
       "previousStatus": "community_page",
       "changedAt": "2026-10-24T13:01:25+08:00"
     },
@@ -853,7 +853,7 @@
       "reason": "來源為社區或彙整頁，不能驗證指定單戶",
       "httpCode": null,
       "pageTitle": "",
-      "checkedAt": "2026-10-25T14:08:31+08:00",
+      "checkedAt": "2026-10-25T15:35:56+08:00",
       "previousStatus": "community_page",
       "changedAt": "2026-10-24T13:09:19+08:00"
     },
@@ -866,7 +866,7 @@
       "reason": "網址不是受支援的原始房仲 HTTPS 網域",
       "httpCode": null,
       "pageTitle": "",
-      "checkedAt": "2026-10-25T14:08:31+08:00",
+      "checkedAt": "2026-10-25T15:35:56+08:00",
       "previousStatus": "unknown",
       "changedAt": "2026-10-24T13:30:11+08:00"
     },
@@ -879,7 +879,7 @@
       "reason": "網址不是受支援的原始房仲 HTTPS 網域",
       "httpCode": null,
       "pageTitle": "",
-      "checkedAt": "2026-10-25T14:08:31+08:00",
+      "checkedAt": "2026-10-25T15:35:56+08:00",
       "previousStatus": "unknown",
       "changedAt": "2026-10-24T13:30:11+08:00"
     },
@@ -892,7 +892,7 @@
       "reason": "網址不是受支援的原始房仲 HTTPS 網域",
       "httpCode": null,
       "pageTitle": "",
-      "checkedAt": "2026-10-25T14:08:31+08:00",
+      "checkedAt": "2026-10-25T15:35:56+08:00",
       "previousStatus": "unknown",
       "changedAt": "2026-10-24T13:30:11+08:00"
     },
@@ -905,7 +905,7 @@
       "reason": "檢查程序失敗：RuntimeError",
       "httpCode": null,
       "pageTitle": "",
-      "checkedAt": "2026-10-25T14:08:33+08:00",
+      "checkedAt": "2026-10-25T15:35:59+08:00",
       "previousStatus": "unknown",
       "changedAt": "2026-10-24T17:23:40+08:00"
     },
@@ -918,7 +918,7 @@
       "reason": "檢查程序失敗：RuntimeError",
       "httpCode": null,
       "pageTitle": "",
-      "checkedAt": "2026-10-25T14:08:33+08:00",
+      "checkedAt": "2026-10-25T15:35:58+08:00",
       "previousStatus": "unknown",
       "changedAt": "2026-10-24T17:23:39+08:00"
     },
@@ -931,7 +931,7 @@
       "reason": "檢查程序失敗：RuntimeError",
       "httpCode": null,
       "pageTitle": "",
-      "checkedAt": "2026-10-25T14:08:33+08:00",
+      "checkedAt": "2026-10-25T15:36:00+08:00",
       "previousStatus": "unknown",
       "changedAt": "2026-10-24T17:33:56+08:00"
     }
