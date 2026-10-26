@@ -161,7 +161,7 @@
       "reason": "http_403",
       "seq": 33,
       "url": "https://buy.houseprice.tw/house/32490318_2146375/",
-      "checkedAt": "2026-10-25T22:20:16+00:00"
+      "checkedAt": "2026-10-26T00:34:05+00:00"
     },
     {
       "photoUrl": "https://static.rakuya.com.tw/r1/n288/ec/93/32314288_17_b.jpeg?1783226874",
@@ -256,7 +256,7 @@
       "reason": "http_403",
       "seq": 44,
       "url": "https://buy.houseprice.tw/house/38629737_1025475",
-      "checkedAt": "2026-10-25T22:20:16+00:00"
+      "checkedAt": "2026-10-26T00:34:05+00:00"
     },
     {
       "photoUrl": "https://static.rakuya.com.tw/r1/n401/1a/57/34896401_1_b.jpeg?1785464304",
@@ -324,7 +324,7 @@
       "reason": "http_403",
       "seq": 52,
       "url": "https://buy.houseprice.tw/house/37435973_2005850",
-      "checkedAt": "2026-10-25T22:20:16+00:00"
+      "checkedAt": "2026-10-26T00:34:05+00:00"
     },
     {
       "photoUrl": "https://static.rakuya.com.tw/r1/n062/de/9f/34923062_1_b.jpeg?1785621849",
@@ -401,7 +401,7 @@
       "reason": "http_403",
       "seq": 61,
       "url": "https://buy.yungching.com.tw/house/7029139",
-      "checkedAt": "2026-10-25T22:20:16+00:00"
+      "checkedAt": "2026-10-26T00:34:05+00:00"
     },
     {
       "photoUrl": "https://static.rakuya.com.tw/r2/n575/e2/32/32547575_1_b.jpeg?1785215663",
@@ -628,6 +628,15 @@
       "seq": 91,
       "url": "https://www.sinyi.com.tw/buy/house/3938JT",
       "checkedAt": "2026-10-25T17:26:44+00:00"
+    },
+    {
+      "photoUrl": "https://static.rakuya.com.tw/r1/n349/22/86/35765349_12_b.jpeg?1791583745",
+      "source": "listing_og:image",
+      "reason": "ok",
+      "title": "美麗大湖稀有優質一房 - 美麗大湖更多社區優質物件 | 樂屋網社區行情",
+      "seq": 92,
+      "url": "https://www.rakuya.com.tw/sell_item/info?ehid=0c1447357653499",
+      "checkedAt": "2026-10-26T00:34:05+00:00"
     }
   ]
 }

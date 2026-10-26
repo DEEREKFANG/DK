@@ -2194,10 +2194,7 @@
       "related": "信義物件編號3938JT；現有其他SRC類社區非同戶，避免僅因關鍵字相似合併。",
       "ageYears": 6.2,
       "ageNote": "2026-10-25信義房屋3938JT刊登屋齡約6.2年，待建物謄本核對。",
-      "photoUrl": "https://res.sinyi.com.tw/buy/3938JT/bigimg/A.JPG",
-      "manualEntry": true,
-      "manualSource": "exact Sinyi listing 3938JT; connector write to Google Sheet blocked",
-      "photoSource": "listing_og:image"
+      "photoUrl": "https://res.sinyi.com.tw/buy/3938JT/bigimg/A.JPG"
     },
     {
       "seq": 92,
@@ -2221,7 +2218,8 @@
       "related": "樂屋ehid=0c1447357653499與信義房屋8087UY為相同標題『美麗大湖稀有優質一房』、1198萬、13.16坪、2/5樓、主建8.43坪，屬高度疑似同戶跨平台刊登，僅計一筆；正式須以門牌建號確認。另一比較物件『美麗大湖樂活空間』信義1465GB，台北內湖大湖山莊街，B1/4樓18.15坪、主建8.47坪、1180萬（含車位價），屋齡約30.2年，名稱相近但地址、樓層不同，是否同一建築社區須核，不應視為同戶或同規格折價。另冠德美麗大湖在金湖路可能是不同社區，勿以共同名稱去重。",
       "ageYears": 29.8,
       "ageNote": "信義房屋8087UY及樂屋近期索引標示約29.8年（2026/10/26查詢）；實際完工年月與是否越過30年以本戶謄本為準。",
-      "photoUrl": ""
+      "photoUrl": "https://static.rakuya.com.tw/r1/n349/22/86/35765349_12_b.jpeg?1791583745",
+      "photoSource": "listing_og:image"
     }
   ]
 }
