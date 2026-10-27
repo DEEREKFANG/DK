@@ -161,7 +161,7 @@
       "reason": "http_403",
       "seq": 33,
       "url": "https://buy.houseprice.tw/house/32490318_2146375/",
-      "checkedAt": "2026-10-27T01:12:50+00:00"
+      "checkedAt": "2026-10-27T06:21:15+00:00"
     },
     {
       "photoUrl": "https://static.rakuya.com.tw/r1/n288/ec/93/32314288_17_b.jpeg?1783226874",
@@ -256,7 +256,7 @@
       "reason": "http_403",
       "seq": 44,
       "url": "https://buy.houseprice.tw/house/38629737_1025475",
-      "checkedAt": "2026-10-27T01:12:50+00:00"
+      "checkedAt": "2026-10-27T06:21:15+00:00"
     },
     {
       "photoUrl": "https://static.rakuya.com.tw/r1/n401/1a/57/34896401_1_b.jpeg?1785464304",
@@ -324,7 +324,7 @@
       "reason": "http_403",
       "seq": 52,
       "url": "https://buy.houseprice.tw/house/37435973_2005850",
-      "checkedAt": "2026-10-27T01:12:50+00:00"
+      "checkedAt": "2026-10-27T06:21:15+00:00"
     },
     {
       "photoUrl": "https://static.rakuya.com.tw/r1/n062/de/9f/34923062_1_b.jpeg?1785621849",
@@ -401,7 +401,7 @@
       "reason": "http_403",
       "seq": 61,
       "url": "https://buy.yungching.com.tw/house/7029139",
-      "checkedAt": "2026-10-27T01:12:50+00:00"
+      "checkedAt": "2026-10-27T06:21:15+00:00"
     },
     {
       "photoUrl": "https://static.rakuya.com.tw/r2/n575/e2/32/32547575_1_b.jpeg?1785215663",
@@ -600,7 +600,7 @@
       "reason": "http_404",
       "seq": 89,
       "url": "https://sale.591.com.tw/home/house/detail/2/20462294.html",
-      "checkedAt": "2026-10-26T17:32:54+00:00"
+      "checkedAt": "2026-10-27T06:21:15+00:00"
     },
     {
       "photoUrl": "https://static.rakuya.com.tw/r1/n246/0c/65/35496246_1_b.jpeg?1789545679",
@@ -628,6 +628,24 @@
       "seq": 92,
       "url": "https://www.rakuya.com.tw/sell_item/info?ehid=0c1447357653499",
       "checkedAt": "2026-10-26T00:34:05+00:00"
+    },
+    {
+      "photoUrl": "https://static.rakuya.com.tw/r2/n893/7d/e7/35890893_1_b.jpeg?1792324864",
+      "source": "listing_og:image",
+      "reason": "ok",
+      "title": "台北橋捷運陽光甜蜜小窩 - 拾初明昕更多社區優質物件 | 樂屋網社區行情",
+      "seq": 93,
+      "url": "https://www.rakuya.com.tw/sell_item/info?ehid=0c943335890893f",
+      "checkedAt": "2026-10-27T06:21:15+00:00"
+    },
+    {
+      "photoUrl": "https://static.rakuya.com.tw/r2/n784/59/9c/32825784_5_b.jpeg?1782117904",
+      "source": "listing_og:image",
+      "reason": "ok",
+      "title": "副都心小資屋-吳志豪 - 新北市新莊區買房子、房屋出售 | 樂屋網",
+      "seq": 94,
+      "url": "https://www.rakuya.com.tw/sell_item/info?ehid=081c52328257843",
+      "checkedAt": "2026-10-27T06:21:15+00:00"
     }
   ]
 }
