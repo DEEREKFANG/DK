@@ -231,7 +231,7 @@ function scoreBreakdown(p){
  return `<div class="auto-breakdown"><div class="auto-title"><strong>自動評分 ${s.total}/100</strong><small>資料完整度 ${s.confidence}%</small></div>${rows.map(([k,v,max])=>`<div class="auto-score-row"><span>${k}</span><span class="score-meter"><i style="width:${100*v/max}%"></i></span><b>${v}/${max}</b></div>`).join('')}<p>通勤分只依行政區、捷運線索初估，尚非實測門到門分鐘；用途以謄本、售況以仲介查證為準。</p>${s.warnings.length?`<p class="auto-warnings">${escapeHTML(s.warnings.join("、"))}</p>`:""}</div>`;
 }
 function comparisonTop(n){
- return canonical(state.properties.filter(p=>p&&p.id&&p.price!==null&&Number(p.price)<=1300&&p.listingStatus!=="sold"&&!["sold","removed","missing_page"].includes(p.checkStatus))).sort((a,b)=>scoreHome(b).total-scoreHome(a).total||scoreHome(b).confidence-scoreHome(a).confidence||a.seq-b.seq).slice(0,n);
+ return canonical(state.properties.filter(p=>p&&!p.unsuitable&&p.id&&p.price!==null&&Number(p.price)<=1300&&p.listingStatus!=="sold"&&!["sold","removed","missing_page"].includes(p.checkStatus))).sort((a,b)=>scoreHome(b).total-scoreHome(a).total||scoreHome(b).confidence-scoreHome(a).confidence||a.seq-b.seq).slice(0,n);
 }
 function districtList(){return [...new Set(state.properties.map(p=>p.district).filter(Boolean))].filter(x=>x!=='待查').sort((a,b)=>a.localeCompare(b,'zh-TW'))}
 function canonical(items){let seen=new Set();return items.filter(p=>{let key=groupKey(p);if(seen.has(key))return false;seen.add(key);return true})}
