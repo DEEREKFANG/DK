@@ -3,6 +3,13 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
+  # 資料同步／每日查核的機器人提交帶 [skip ci]，不會觸發 push；完成後在這裡重新部署。
+  workflow_run:
+    workflows:
+      - Sync public Google Sheet to property website
+      - Daily home listing status check
+    types: [completed]
+    branches: [main]
 
 permissions:
   contents: read
@@ -15,6 +22,7 @@ concurrency:
 
 jobs:
   deploy:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
     environment:
       name: github-pages
@@ -22,6 +30,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          ref: main
       - name: Configure Pages
         uses: actions/configure-pages@v5
         with:

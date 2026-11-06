@@ -1,0 +1,366 @@
+{
+  "schemaVersion": 1,
+  "source": "manual_web_verification",
+  "notice": "由瀏覽器逐一開啟原刊登頁查證；樂屋網由每日自動查核處理。刊登仍在不代表未收斡。",
+  "checkedAt": "2026-11-06T23:30:00+08:00",
+  "results": [
+    {
+      "seq": 2,
+      "sourceUrl": "https://www.sinyi.com.tw/buy/house/1341AJ",
+      "status": "reachable",
+      "reason": "刊登仍在，開價 988 萬；仍需向房仲確認是否已有人出價斡旋",
+      "currentPrice": 988,
+      "evidenceUrl": "https://www.sinyi.com.tw/buy/house/1341AJ",
+      "checkedAt": "2026-11-06T23:30:00+08:00"
+    },
+    {
+      "seq": 11,
+      "sourceUrl": "https://www.hbhousing.com.tw/detail?sn=YS202069",
+      "status": "reachable",
+      "reason": "刊登仍在，開價 1188 萬；仍需向房仲確認是否已有人出價斡旋",
+      "currentPrice": 1188,
+      "evidenceUrl": "https://www.hbhousing.com.tw/detail?sn=YS202069",
+      "checkedAt": "2026-11-06T23:30:00+08:00"
+    },
+    {
+      "seq": 27,
+      "sourceUrl": "https://sale.591.com.tw/home/house/detail/2/21032345.html",
+      "status": "reachable",
+      "reason": "刊登仍在，開價 1198 萬（紀錄 1248 萬，降50 萬）；仍需向房仲確認是否已有人出價斡旋",
+      "currentPrice": 1198,
+      "evidenceUrl": "https://sale.591.com.tw/home/house/detail/2/21032345.html",
+      "checkedAt": "2026-11-06T23:30:00+08:00"
+    },
+    {
+      "seq": 28,
+      "sourceUrl": "https://sale.591.com.tw/home/house/detail/2/20960698.html",
+      "status": "reachable",
+      "reason": "刊登仍在，開價 1180 萬（紀錄 1250 萬，降70 萬）；仍需向房仲確認是否已有人出價斡旋",
+      "currentPrice": 1180,
+      "evidenceUrl": "https://sale.591.com.tw/home/house/detail/2/20960698.html",
+      "checkedAt": "2026-11-06T23:30:00+08:00"
+    },
+    {
+      "seq": 29,
+      "sourceUrl": "https://sale.591.com.tw/home/house/detail/2/20975989.html",
+      "status": "reachable",
+      "reason": "刊登仍在，開價 1198 萬；仍需向房仲確認是否已有人出價斡旋",
+      "currentPrice": 1198,
+      "evidenceUrl": "https://sale.591.com.tw/home/house/detail/2/20975989.html",
+      "checkedAt": "2026-11-06T23:30:00+08:00"
+    },
+    {
+      "seq": 30,
+      "sourceUrl": "https://www.hbhousing.com.tw/detail/?sn=YS202069",
+      "status": "reachable",
+      "reason": "刊登仍在，開價 1188 萬；仍需向房仲確認是否已有人出價斡旋",
+      "currentPrice": 1188,
+      "evidenceUrl": "https://www.hbhousing.com.tw/detail/?sn=YS202069",
+      "checkedAt": "2026-11-06T23:30:00+08:00"
+    },
+    {
+      "seq": 31,
+      "sourceUrl": "https://buy.housefun.com.tw/buy/house/7002385",
+      "status": "reachable",
+      "reason": "刊登仍在，開價 1368 萬；仍需向房仲確認是否已有人出價斡旋",
+      "currentPrice": 1368,
+      "evidenceUrl": "https://buy.housefun.com.tw/buy/house/7002385",
+      "checkedAt": "2026-11-06T23:30:00+08:00"
+    },
+    {
+      "seq": 33,
+      "sourceUrl": "https://buy.houseprice.tw/house/32490318_2146375/",
+      "status": "unknown",
+      "reason": "連結目前顯示三重邊間大三房、開價 1798 萬，與紀錄的水丰景 1490 萬不符，需人工確認",
+      "currentPrice": null,
+      "evidenceUrl": "https://buy.houseprice.tw/house/32490318_2146375/",
+      "checkedAt": "2026-11-06T23:30:00+08:00"
+    },
+    {
+      "seq": 36,
+      "sourceUrl": "https://sale.591.com.tw/home/house/detail/2/20993506.html",
+      "status": "reachable",
+      "reason": "刊登仍在，開價 1088 萬；仍需向房仲確認是否已有人出價斡旋",
+      "currentPrice": 1088,
+      "evidenceUrl": "https://sale.591.com.tw/home/house/detail/2/20993506.html",
+      "checkedAt": "2026-11-06T23:30:00+08:00"
+    },
+    {
+      "seq": 37,
+      "sourceUrl": "https://sale.591.com.tw/home/house/detail/2/20642024.html",
+      "status": "reachable",
+      "reason": "刊登仍在，開價 1148 萬（紀錄 1188 萬，降40 萬）；仍需向房仲確認是否已有人出價斡旋",
+      "currentPrice": 1148,
+      "evidenceUrl": "https://sale.591.com.tw/home/house/detail/2/20642024.html",
+      "checkedAt": "2026-11-06T23:30:00+08:00"
+    },
+    {
+      "seq": 38,
+      "sourceUrl": "https://sale.591.com.tw/home/house/detail/2/20971986.html",
+      "status": "reachable",
+      "reason": "刊登仍在，開價 1350 萬；仍需向房仲確認是否已有人出價斡旋",
+      "currentPrice": 1350,
+      "evidenceUrl": "https://sale.591.com.tw/home/house/detail/2/20971986.html",
+      "checkedAt": "2026-11-06T23:30:00+08:00"
+    },
+    {
+      "seq": 39,
+      "sourceUrl": "https://sale.591.com.tw/home/house/detail/2/21008096.html",
+      "status": "reachable",
+      "reason": "刊登仍在，開價 1368 萬；仍需向房仲確認是否已有人出價斡旋",
+      "currentPrice": 1368,
+      "evidenceUrl": "https://sale.591.com.tw/home/house/detail/2/21008096.html",
+      "checkedAt": "2026-11-06T23:30:00+08:00"
+    },
+    {
+      "seq": 41,
+      "sourceUrl": "https://sale.591.com.tw/home/house/detail/2/20836885.html",
+      "status": "removed",
+      "reason": "591 頁面顯示「頁面不存在」；下架不等於成交",
+      "evidenceUrl": "https://sale.591.com.tw/home/house/detail/2/20836885.html",
+      "checkedAt": "2026-11-06T23:30:00+08:00"
+    },
+    {
+      "seq": 43,
+      "sourceUrl": "https://sale.591.com.tw/home/house/detail/2/20755565.html",
+      "status": "reachable",
+      "reason": "刊登仍在，開價 860 萬；仍需向房仲確認是否已有人出價斡旋",
+      "currentPrice": 860,
+      "evidenceUrl": "https://sale.591.com.tw/home/house/detail/2/20755565.html",
+      "checkedAt": "2026-11-06T23:30:00+08:00"
+    },
+    {
+      "seq": 44,
+      "sourceUrl": "https://buy.houseprice.tw/house/38629737_1025475",
+      "status": "reachable",
+      "reason": "刊登仍在，開價 730 萬；仍需向房仲確認是否已有人出價斡旋",
+      "currentPrice": 730,
+      "evidenceUrl": "https://buy.houseprice.tw/house/38629737_1025475",
+      "checkedAt": "2026-11-06T23:30:00+08:00"
+    },
+    {
+      "seq": 51,
+      "sourceUrl": "https://sale.591.com.tw/home/house/detail/2/20911484.html",
+      "status": "removed",
+      "reason": "591 頁面顯示「頁面不存在」；下架不等於成交",
+      "evidenceUrl": "https://sale.591.com.tw/home/house/detail/2/20911484.html",
+      "checkedAt": "2026-11-06T23:30:00+08:00"
+    },
+    {
+      "seq": 52,
+      "sourceUrl": "https://buy.houseprice.tw/house/37435973_2005850",
+      "status": "reachable",
+      "reason": "刊登仍在，開價 958 萬；物件為淡水南加州小坪數；仍需向房仲確認是否已有人出價斡旋",
+      "currentPrice": 958,
+      "evidenceUrl": "https://buy.houseprice.tw/house/37435973_2005850",
+      "checkedAt": "2026-11-06T23:30:00+08:00"
+    },
+    {
+      "seq": 66,
+      "sourceUrl": "https://www.sinyi.com.tw/buy/house/8737WG",
+      "status": "removed",
+      "reason": "信義房屋頁面不存在（HTTP 404）；下架不等於成交",
+      "evidenceUrl": "https://www.sinyi.com.tw/buy/house/8737WG",
+      "checkedAt": "2026-11-06T23:30:00+08:00"
+    },
+    {
+      "seq": 67,
+      "sourceUrl": "https://www.sinyi.com.tw/buy/house/8761LK",
+      "status": "reachable",
+      "reason": "刊登仍在，開價 1050 萬；仍需向房仲確認是否已有人出價斡旋",
+      "currentPrice": 1050,
+      "evidenceUrl": "https://www.sinyi.com.tw/buy/house/8761LK",
+      "checkedAt": "2026-11-06T23:30:00+08:00"
+    },
+    {
+      "seq": 68,
+      "sourceUrl": "https://www.sinyi.com.tw/buy/house/4487HR",
+      "status": "reachable",
+      "reason": "刊登仍在，開價 1010 萬；仍需向房仲確認是否已有人出價斡旋",
+      "currentPrice": 1010,
+      "evidenceUrl": "https://www.sinyi.com.tw/buy/house/4487HR",
+      "checkedAt": "2026-11-06T23:30:00+08:00"
+    },
+    {
+      "seq": 69,
+      "sourceUrl": "https://line-app.591.com.tw/sale/20915369",
+      "status": "reachable",
+      "reason": "刊登仍在，開價 1190 萬；仍需向房仲確認是否已有人出價斡旋",
+      "currentPrice": 1190,
+      "evidenceUrl": "https://sale.591.com.tw/home/house/detail/2/20915369.html",
+      "checkedAt": "2026-11-06T23:30:00+08:00"
+    },
+    {
+      "seq": 72,
+      "sourceUrl": "https://buy.houseprice.tw/house/36444763_381502",
+      "status": "reachable",
+      "reason": "刊登仍在，開價 1050 萬；仍需向房仲確認是否已有人出價斡旋",
+      "currentPrice": 1050,
+      "evidenceUrl": "https://buy.houseprice.tw/house/36444763_381502",
+      "checkedAt": "2026-11-06T23:30:00+08:00"
+    },
+    {
+      "seq": 74,
+      "sourceUrl": "https://www.sinyi.com.tw/buy/house/2875VX",
+      "status": "removed",
+      "reason": "信義房屋頁面不存在（HTTP 404）；下架不等於成交",
+      "evidenceUrl": "https://www.sinyi.com.tw/buy/house/2875VX",
+      "checkedAt": "2026-11-06T23:30:00+08:00"
+    },
+    {
+      "seq": 75,
+      "sourceUrl": "https://www.sinyi.com.tw/buy/house/06382Q",
+      "status": "reachable",
+      "reason": "刊登仍在，開價 1275 萬；仍需向房仲確認是否已有人出價斡旋",
+      "currentPrice": 1275,
+      "evidenceUrl": "https://www.sinyi.com.tw/buy/house/06382Q",
+      "checkedAt": "2026-11-06T23:30:00+08:00"
+    },
+    {
+      "seq": 76,
+      "sourceUrl": "https://www.sinyi.com.tw/buy/house/35282K?breadcrumb=list",
+      "status": "reachable",
+      "reason": "刊登仍在，開價 1398 萬；仍需向房仲確認是否已有人出價斡旋",
+      "currentPrice": 1398,
+      "evidenceUrl": "https://www.sinyi.com.tw/buy/house/35282K?breadcrumb=list",
+      "checkedAt": "2026-11-06T23:30:00+08:00"
+    },
+    {
+      "seq": 77,
+      "sourceUrl": "https://www.sinyi.com.tw/buy/house/6055RF?breadcrumb=list",
+      "status": "removed",
+      "reason": "信義房屋頁面不存在（HTTP 404）；下架不等於成交",
+      "evidenceUrl": "https://www.sinyi.com.tw/buy/house/6055RF?breadcrumb=list",
+      "checkedAt": "2026-11-06T23:30:00+08:00"
+    },
+    {
+      "seq": 78,
+      "sourceUrl": "https://www.sinyi.com.tw/buy/house/0649DB?breadcrumb=list",
+      "status": "reachable",
+      "reason": "刊登仍在，開價 1380 萬；仍需向房仲確認是否已有人出價斡旋",
+      "currentPrice": 1380,
+      "evidenceUrl": "https://www.sinyi.com.tw/buy/house/0649DB?breadcrumb=list",
+      "checkedAt": "2026-11-06T23:30:00+08:00"
+    },
+    {
+      "seq": 79,
+      "sourceUrl": "https://www.sinyi.com.tw/buy/house/4813PN",
+      "status": "reachable",
+      "reason": "刊登仍在，開價 1368 萬；仍需向房仲確認是否已有人出價斡旋",
+      "currentPrice": 1368,
+      "evidenceUrl": "https://www.sinyi.com.tw/buy/house/4813PN",
+      "checkedAt": "2026-11-06T23:30:00+08:00"
+    },
+    {
+      "seq": 80,
+      "sourceUrl": "https://www.sinyi.com.tw/buy/house/1234NZ",
+      "status": "removed",
+      "reason": "信義房屋頁面不存在（HTTP 404）；下架不等於成交",
+      "evidenceUrl": "https://www.sinyi.com.tw/buy/house/1234NZ",
+      "checkedAt": "2026-11-06T23:30:00+08:00"
+    },
+    {
+      "seq": 81,
+      "sourceUrl": "https://www.sinyi.com.tw/buy/house/0113PJ",
+      "status": "reachable",
+      "reason": "刊登仍在，開價 1298 萬；仍需向房仲確認是否已有人出價斡旋",
+      "currentPrice": 1298,
+      "evidenceUrl": "https://www.sinyi.com.tw/buy/house/0113PJ",
+      "checkedAt": "2026-11-06T23:30:00+08:00"
+    },
+    {
+      "seq": 85,
+      "sourceUrl": "https://www.hbhousing.com.tw/detail?sn=WS86326",
+      "status": "removed",
+      "reason": "住商頁面顯示物件因刊登逾期或已成交暫時無法瀏覽；下架不等於成交",
+      "evidenceUrl": "https://www.hbhousing.com.tw/detail?sn=WS86326",
+      "checkedAt": "2026-11-06T23:30:00+08:00"
+    },
+    {
+      "seq": 86,
+      "sourceUrl": "https://sale.591.com.tw/home/house/detail/2/20810362.html",
+      "status": "removed",
+      "reason": "591 頁面顯示「頁面不存在」；下架不等於成交",
+      "evidenceUrl": "https://sale.591.com.tw/home/house/detail/2/20810362.html",
+      "checkedAt": "2026-11-06T23:30:00+08:00"
+    },
+    {
+      "seq": 88,
+      "sourceUrl": "https://sale.591.com.tw/home/house/detail/2/20930430.html",
+      "status": "reachable",
+      "reason": "刊登仍在，開價 998 萬；仍需向房仲確認是否已有人出價斡旋",
+      "currentPrice": 998,
+      "evidenceUrl": "https://sale.591.com.tw/home/house/detail/2/20930430.html",
+      "checkedAt": "2026-11-06T23:30:00+08:00"
+    },
+    {
+      "seq": 89,
+      "sourceUrl": "https://sale.591.com.tw/home/house/detail/2/20462294.html",
+      "status": "removed",
+      "reason": "591 頁面顯示「頁面不存在」；下架不等於成交",
+      "evidenceUrl": "https://sale.591.com.tw/home/house/detail/2/20462294.html",
+      "checkedAt": "2026-11-06T23:30:00+08:00"
+    },
+    {
+      "seq": 91,
+      "sourceUrl": "https://www.sinyi.com.tw/buy/house/3938JT",
+      "status": "reachable",
+      "reason": "刊登仍在，開價 1498 萬；仍需向房仲確認是否已有人出價斡旋",
+      "currentPrice": 1498,
+      "evidenceUrl": "https://www.sinyi.com.tw/buy/house/3938JT",
+      "checkedAt": "2026-11-06T23:30:00+08:00"
+    },
+    {
+      "seq": 97,
+      "sourceUrl": "https://buy.housefun.com.tw/buy/house/5376106",
+      "status": "reachable",
+      "reason": "刊登仍在，開價 1598 萬；仍需向房仲確認是否已有人出價斡旋",
+      "currentPrice": 1598,
+      "evidenceUrl": "https://buy.housefun.com.tw/buy/house/5376106",
+      "checkedAt": "2026-11-06T23:30:00+08:00"
+    },
+    {
+      "seq": 100,
+      "sourceUrl": "https://sale.591.com.tw/home/house/detail/2/20940103.html",
+      "status": "reachable",
+      "reason": "刊登仍在，開價 1268 萬；仍需向房仲確認是否已有人出價斡旋",
+      "currentPrice": 1268,
+      "evidenceUrl": "https://sale.591.com.tw/home/house/detail/2/20940103.html",
+      "checkedAt": "2026-11-06T23:30:00+08:00"
+    },
+    {
+      "seq": 102,
+      "sourceUrl": "https://sale.591.com.tw/home/house/detail/2/20817645.html",
+      "status": "removed",
+      "reason": "591 頁面顯示「頁面不存在」；下架不等於成交",
+      "evidenceUrl": "https://sale.591.com.tw/home/house/detail/2/20817645.html",
+      "checkedAt": "2026-11-06T23:30:00+08:00"
+    },
+    {
+      "seq": 103,
+      "sourceUrl": "https://www.hbhousing.com.tw/detail?sn=TS148674",
+      "status": "reachable",
+      "reason": "刊登仍在，開價 1198 萬；仍需向房仲確認是否已有人出價斡旋",
+      "currentPrice": 1198,
+      "evidenceUrl": "https://www.hbhousing.com.tw/detail?sn=TS148674",
+      "checkedAt": "2026-11-06T23:30:00+08:00"
+    },
+    {
+      "seq": 105,
+      "sourceUrl": "https://sale.591.com.tw/home/house/detail/2/20778668.html",
+      "status": "removed",
+      "reason": "591 頁面顯示「頁面不存在」；下架不等於成交",
+      "evidenceUrl": "https://sale.591.com.tw/home/house/detail/2/20778668.html",
+      "checkedAt": "2026-11-06T23:30:00+08:00"
+    },
+    {
+      "seq": 106,
+      "sourceUrl": "https://sale.591.com.tw/home/house/detail/2/21000072.html",
+      "status": "reachable",
+      "reason": "刊登仍在，開價 1098 萬；仍需向房仲確認是否已有人出價斡旋",
+      "currentPrice": 1098,
+      "evidenceUrl": "https://sale.591.com.tw/home/house/detail/2/21000072.html",
+      "checkedAt": "2026-11-06T23:30:00+08:00"
+    }
+  ]
+}

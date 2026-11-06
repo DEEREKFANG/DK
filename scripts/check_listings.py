@@ -26,6 +26,8 @@ from bs4 import BeautifulSoup
 ROOT = Path(__file__).resolve().parents[1]
 WEBSITE = ROOT / "index.html"
 OUTPUT = ROOT / "listing-status.json"
+SHEET_MIRROR = ROOT / "sheet-data.json"
+MANUAL = ROOT / "manual-status.json"
 SHEET_ID = "1XP_8GXN9QRKbEGqYzBudjOYazADMJqYFf8gqMiADgS8"
 SHEET_GID = "762574749"
 TW = timezone(timedelta(hours=8))
@@ -88,9 +90,33 @@ def load_public_sheet():
         print("Public Sheet unavailable:", type(exc).__name__)
         return []
 
+def load_sheet_mirror():
+    """sheet-data.json is refreshed every 15 minutes from the Google Sheet; it holds every row."""
+    try:
+        doc = json.loads(SHEET_MIRROR.read_text("utf-8"))
+    except (OSError, ValueError):
+        return []
+    rows = []
+    for x in doc.get("items", []):
+        try:
+            seq = int(x.get("seq"))
+        except (TypeError, ValueError):
+            continue
+        rows.append({"id": "H{:03d}".format(seq), "seq": seq,
+                     "name": str(x.get("name") or "").strip(), "url": str(x.get("url") or "").strip()})
+    return rows
+
+def load_manual():
+    """Results a person verified by searching the web, used when a broker blocks automated reads."""
+    try:
+        doc = json.loads(MANUAL.read_text("utf-8"))
+    except (OSError, ValueError):
+        return {}
+    return {int(x["seq"]): x for x in doc.get("results", []) if x.get("seq") and x.get("status")}
+
 def properties():
     included = {int(p["seq"]): p for p in load_embedded() if p.get("seq") is not None}
-    for s in load_public_sheet():
+    for s in load_sheet_mirror() + load_public_sheet():
         n = s["seq"]
         if n in included:
             old = included[n]
@@ -100,6 +126,18 @@ def properties():
         else:
             included[n] = s
     return [included[n] for n in sorted(included)]
+
+def decode_html(content, declared=None):
+    head = content[:3000].decode("ascii", "ignore").lower()
+    found = re.search(r"charset=[\"']?([a-z0-9_-]+)", head)
+    for enc in [found.group(1) if found else None, declared, "utf-8", "big5", "cp950"]:
+        if not enc:
+            continue
+        try:
+            return content.decode(enc)
+        except (LookupError, UnicodeDecodeError):
+            continue
+    return content.decode("utf-8", errors="replace")
 
 def result(p, status, reason, http_code=None, page_title=""):
     return {
@@ -152,9 +190,9 @@ def check_one(p):
         ctype = response.headers.get("content-type", "")
         if "html" not in ctype.lower() and b"<html" not in content[:2000].lower():
             return result(p, "unknown", "非 HTML 刊登頁面，無法判斷", code)
-        # requests may mis-detect Chinese encodings on some broker websites.
-        encoding = response.apparent_encoding or "utf-8"
-        soup = BeautifulSoup(content.decode(encoding, errors="replace"), "html.parser")
+        # response.apparent_encoding re-reads response.content, which raises RuntimeError
+        # after streaming; decode the bytes we already have instead.
+        soup = BeautifulSoup(decode_html(content, response.encoding), "html.parser")
         title = soup.title.get_text(" ", strip=True) if soup.title else ""
         meta = []
         for tag in soup.find_all("meta"):
@@ -208,6 +246,7 @@ def main():
             prev = {str(x["id"]): x for x in json.loads(OUTPUT.read_text("utf-8")).get("results", [])}
         except (ValueError, KeyError):
             pass
+    manual = load_manual()
     print("Checking {} property source records".format(len(props)))
     current = {}
     with ThreadPoolExecutor(max_workers=4) as pool:
@@ -218,6 +257,15 @@ def main():
                 x = done.result()
             except Exception as exc:
                 x = result(p, "unknown", "檢查程序失敗：{}".format(type(exc).__name__))
+            m = manual.get(x["seq"])
+            if m and x["status"] in ("blocked", "unknown", "missing_page") and \
+                    str(m.get("sourceUrl") or "") == x["sourceUrl"]:
+                x["autoStatus"], x["autoReason"] = x["status"], x["reason"]
+                x["status"] = m["status"]
+                x["reason"] = "網路查證（{}）：{}".format(str(m.get("checkedAt", ""))[:10], m.get("reason", ""))
+                x["evidenceUrl"] = m.get("evidenceUrl", "")
+                if m.get("currentPrice") is not None:
+                    x["currentPrice"] = m["currentPrice"]
             prior = prev.get(x["id"])
             # During connectivity outages keep a previous definitive signal as contextual evidence,
             # without reporting it as the current day's verified status.
