@@ -163,7 +163,7 @@
       "reason": "http_403",
       "seq": 33,
       "url": "https://buy.houseprice.tw/house/32490318_2146375/",
-      "checkedAt": "2026-11-08T01:08:01+00:00"
+      "checkedAt": "2026-11-08T07:21:14+00:00"
     },
     {
       "photoUrl": "https://static.rakuya.com.tw/r1/n288/ec/93/32314288_17_b.jpeg?1783226874",
@@ -258,7 +258,7 @@
       "reason": "http_403",
       "seq": 44,
       "url": "https://buy.houseprice.tw/house/38629737_1025475",
-      "checkedAt": "2026-11-08T01:08:01+00:00"
+      "checkedAt": "2026-11-08T07:21:14+00:00"
     },
     {
       "photoUrl": "https://static.rakuya.com.tw/r1/n401/1a/57/34896401_1_b.jpeg?1785464304",
@@ -326,7 +326,7 @@
       "reason": "http_403",
       "seq": 52,
       "url": "https://buy.houseprice.tw/house/37435973_2005850",
-      "checkedAt": "2026-11-08T01:08:01+00:00"
+      "checkedAt": "2026-11-08T07:21:14+00:00"
     },
     {
       "photoUrl": "https://static.rakuya.com.tw/r1/n062/de/9f/34923062_1_b.jpeg?1785621849",
@@ -403,7 +403,7 @@
       "reason": "http_403",
       "seq": 61,
       "url": "https://buy.yungching.com.tw/house/7029139",
-      "checkedAt": "2026-11-08T01:08:01+00:00"
+      "checkedAt": "2026-11-08T07:21:14+00:00"
     },
     {
       "photoUrl": "https://static.rakuya.com.tw/r2/n575/e2/32/32547575_1_b.jpeg?1785215663",
@@ -646,13 +646,13 @@
       "checkedAt": "2026-11-03T09:53:20+00:00"
     },
     {
-      "photoUrl": "https://static.rakuya.com.tw/r1/n122/df/1a/35913122_1_b.jpeg?1792465270",
+      "photoUrl": "https://static.rakuya.com.tw/r1/n430/3b/6c/36122430_2_b.jpeg?1793935809",
       "source": "listing_og:image",
       "reason": "ok",
-      "title": "A7永慶陳陳✅華悅城✅樹海景觀方正兩房✅低總價成家 - 華悦城更多社區優質物件 | 樂屋網社區行情",
+      "title": "A7【華悅城】樹海景觀2房｜秋的季節住進落羽松花園 - 華悦城更多社區優質物件 | 樂屋網社區行情",
       "seq": 96,
-      "url": "https://www.rakuya.com.tw/sell_item/info?ehid=0c06b6359131223",
-      "checkedAt": "2026-11-04T09:56:32+00:00"
+      "url": "https://www.rakuya.com.tw/sell_item/info?ehid=0bad48361224304",
+      "checkedAt": "2026-11-08T07:21:14+00:00"
     },
     {
       "photoUrl": "",
@@ -684,7 +684,7 @@
       "reason": "http_403",
       "seq": 101,
       "url": "https://buy.yungching.com.tw/house/7450541",
-      "checkedAt": "2026-11-08T01:08:01+00:00"
+      "checkedAt": "2026-11-08T07:21:14+00:00"
     },
     {
       "photoUrl": "",
@@ -701,6 +701,13 @@
       "seq": 103,
       "url": "https://www.hbhousing.com.tw/detail?sn=TS148674",
       "checkedAt": "2026-11-05T18:59:37+00:00"
+    },
+    {
+      "photoUrl": "",
+      "reason": "http_403",
+      "seq": 107,
+      "url": "https://buy.yungching.com.tw/house/7388679",
+      "checkedAt": "2026-11-08T07:21:14+00:00"
     }
   ]
 }
