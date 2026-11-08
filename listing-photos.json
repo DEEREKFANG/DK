@@ -163,7 +163,7 @@
       "reason": "http_403",
       "seq": 33,
       "url": "https://buy.houseprice.tw/house/32490318_2146375/",
-      "checkedAt": "2026-11-08T14:26:16+00:00"
+      "checkedAt": "2026-11-08T18:58:37+00:00"
     },
     {
       "photoUrl": "https://static.rakuya.com.tw/r1/n288/ec/93/32314288_17_b.jpeg?1783226874",
@@ -258,7 +258,7 @@
       "reason": "http_403",
       "seq": 44,
       "url": "https://buy.houseprice.tw/house/38629737_1025475",
-      "checkedAt": "2026-11-08T14:26:16+00:00"
+      "checkedAt": "2026-11-08T18:58:37+00:00"
     },
     {
       "photoUrl": "https://static.rakuya.com.tw/r1/n401/1a/57/34896401_1_b.jpeg?1785464304",
@@ -326,7 +326,7 @@
       "reason": "http_403",
       "seq": 52,
       "url": "https://buy.houseprice.tw/house/37435973_2005850",
-      "checkedAt": "2026-11-08T14:26:16+00:00"
+      "checkedAt": "2026-11-08T18:58:37+00:00"
     },
     {
       "photoUrl": "https://static.rakuya.com.tw/r1/n062/de/9f/34923062_1_b.jpeg?1785621849",
@@ -403,7 +403,7 @@
       "reason": "http_403",
       "seq": 61,
       "url": "https://buy.yungching.com.tw/house/7029139",
-      "checkedAt": "2026-11-08T14:26:16+00:00"
+      "checkedAt": "2026-11-08T18:58:37+00:00"
     },
     {
       "photoUrl": "https://static.rakuya.com.tw/r2/n575/e2/32/32547575_1_b.jpeg?1785215663",
@@ -559,16 +559,14 @@
       "title": "專任全新未住過【鴻築玥】低總價兩房 - 鴻築玥更多社區優質物件 | 樂屋網社區行情",
       "seq": 84,
       "url": "https://www.rakuya.com.tw/sell_item/info?ehid=0298fc356220179",
-      "checkedAt": "2026-11-01T15:09:49+00:00"
+      "checkedAt": "2026-11-08T18:58:37+00:00"
     },
     {
-      "photoUrl": "https://img.hbhousing.com.tw/pictures/A218%2fA218WS86326a.jpg?1793545792",
-      "source": "listing_og:image",
-      "reason": "ok",
-      "title": "桃園市龜山區A7丹佛花都2房 - 住商不動產",
+      "photoUrl": "",
+      "reason": "http_420",
       "seq": 85,
       "url": "https://www.hbhousing.com.tw/detail?sn=WS86326",
-      "checkedAt": "2026-11-01T15:09:49+00:00"
+      "checkedAt": "2026-11-08T18:58:37+00:00"
     },
     {
       "photoUrl": "",
@@ -584,16 +582,14 @@
       "title": "A7低總價禾悅花園景觀三房平車 - 桃園市龜山區買房子、房屋出售 | 樂屋網",
       "seq": 87,
       "url": "https://www.rakuya.com.tw/sell_item/info?ehid=0f7a39354338044",
-      "checkedAt": "2026-11-01T15:09:49+00:00"
+      "checkedAt": "2026-11-08T18:58:37+00:00"
     },
     {
-      "photoUrl": "https://img1.591.com.tw/house/2026/09/18/178973097406381402.jpg!1000x.water2.jpg",
-      "source": "listing_og:image",
-      "reason": "ok",
-      "title": "💝群慶團隊💝【智匯學】Ａ７近文青國小．頂樓一房．另購車位 - 591售屋網",
+      "photoUrl": "",
+      "reason": "http_404",
       "seq": 88,
       "url": "https://sale.591.com.tw/home/house/detail/2/20930430.html",
-      "checkedAt": "2026-11-01T15:09:49+00:00"
+      "checkedAt": "2026-11-08T18:58:37+00:00"
     },
     {
       "photoUrl": "",
@@ -609,7 +605,7 @@
       "title": "(專)A7丹佛花都-全新2房近捷運雙語學區 - 桃園市龜山區買房子、房屋出售 | 樂屋網",
       "seq": 90,
       "url": "https://www.rakuya.com.tw/sell_item/info?ehid=03705e35496246a",
-      "checkedAt": "2026-11-01T15:09:49+00:00"
+      "checkedAt": "2026-11-08T18:58:37+00:00"
     },
     {
       "photoUrl": "https://res.sinyi.com.tw/buy/3938JT/bigimg/A.JPG",
@@ -684,7 +680,7 @@
       "reason": "http_403",
       "seq": 101,
       "url": "https://buy.yungching.com.tw/house/7450541",
-      "checkedAt": "2026-11-08T14:26:16+00:00"
+      "checkedAt": "2026-11-08T18:58:37+00:00"
     },
     {
       "photoUrl": "",
@@ -707,7 +703,7 @@
       "reason": "http_403",
       "seq": 107,
       "url": "https://buy.yungching.com.tw/house/7388679",
-      "checkedAt": "2026-11-08T14:26:16+00:00"
+      "checkedAt": "2026-11-08T18:58:37+00:00"
     }
   ]
 }
