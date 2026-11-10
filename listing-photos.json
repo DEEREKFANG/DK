@@ -163,7 +163,7 @@
       "reason": "http_403",
       "seq": 33,
       "url": "https://buy.houseprice.tw/house/32490318_2146375/",
-      "checkedAt": "2026-11-10T18:35:08+00:00"
+      "checkedAt": "2026-11-10T23:44:30+00:00"
     },
     {
       "photoUrl": "https://static.rakuya.com.tw/r1/n288/ec/93/32314288_17_b.jpeg?1783226874",
@@ -220,11 +220,13 @@
       "checkedAt": "2026-10-25T04:41:44+00:00"
     },
     {
-      "photoUrl": "",
-      "reason": "http_404",
+      "photoUrl": "https://static.rakuya.com.tw/r2/n814/2c/9e/35928814_1_b.jpeg?1792558526",
+      "source": "listing_og:image",
+      "reason": "ok",
+      "title": "三重神農街｜水丰景｜景觀電梯兩房1388萬-柔 - 水丰景更多社區優質物件 | 樂屋網社區行情",
       "seq": 40,
-      "url": "https://community.rakuya.com.tw/40782/sell/info?ehid=0a7bfa35826602d",
-      "checkedAt": "2026-11-10T18:35:08+00:00"
+      "url": "https://community.rakuya.com.tw/40782/sell/info?ehid=03f16935928814f",
+      "checkedAt": "2026-11-10T23:44:30+00:00"
     },
     {
       "photoUrl": "https://img1.591.com.tw/house/2026/10/02/179091667033887006.jpg!1000x.water2.jpg",
@@ -258,7 +260,7 @@
       "reason": "http_403",
       "seq": 44,
       "url": "https://buy.houseprice.tw/house/38629737_1025475",
-      "checkedAt": "2026-11-10T18:35:08+00:00"
+      "checkedAt": "2026-11-10T23:44:30+00:00"
     },
     {
       "photoUrl": "https://static.rakuya.com.tw/r1/n401/1a/57/34896401_1_b.jpeg?1785464304",
@@ -326,7 +328,7 @@
       "reason": "http_403",
       "seq": 52,
       "url": "https://buy.houseprice.tw/house/37435973_2005850",
-      "checkedAt": "2026-11-10T18:35:08+00:00"
+      "checkedAt": "2026-11-10T23:44:30+00:00"
     },
     {
       "photoUrl": "https://static.rakuya.com.tw/r1/n062/de/9f/34923062_1_b.jpeg?1785621849",
@@ -403,7 +405,7 @@
       "reason": "http_403",
       "seq": 61,
       "url": "https://buy.yungching.com.tw/house/7029139",
-      "checkedAt": "2026-11-10T18:35:08+00:00"
+      "checkedAt": "2026-11-10T23:44:30+00:00"
     },
     {
       "photoUrl": "https://static.rakuya.com.tw/r2/n575/e2/32/32547575_1_b.jpeg?1785215663",
@@ -680,7 +682,7 @@
       "reason": "http_403",
       "seq": 101,
       "url": "https://buy.yungching.com.tw/house/7450541",
-      "checkedAt": "2026-11-10T18:35:08+00:00"
+      "checkedAt": "2026-11-10T23:44:30+00:00"
     },
     {
       "photoUrl": "",
@@ -703,7 +705,7 @@
       "reason": "http_403",
       "seq": 107,
       "url": "https://buy.yungching.com.tw/house/7388679",
-      "checkedAt": "2026-11-10T18:35:08+00:00"
+      "checkedAt": "2026-11-10T23:44:30+00:00"
     }
   ]
 }
